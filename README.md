@@ -61,6 +61,9 @@ conda activate mmb5009_edward
 
 Analyzes protein methylation patterns in cancer vs healthy samples from mass spectrometry data.
 
+![Flowchart showing the methylation analysis pipeline.](1_Proteomics_Methylation_Analysis/MMB5009-flow1.drawio.png)
+
+
 ### Prerequisites
 - Input file `Healthy_vs_Cancer_methyl_peptide_training_set.csv` should be in `data/`
 
