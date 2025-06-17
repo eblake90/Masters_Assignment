@@ -1,0 +1,7 @@
+Methylation Analysis Summary
+Total validated peptides: 21
+Significant peptides (p<0.05, FC>1.5): 4
+
+Significant Peptide Categories:
+  Healthy_Enriched: 3
+  Cancer_Enriched: 1
