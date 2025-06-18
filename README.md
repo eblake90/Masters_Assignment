@@ -28,7 +28,7 @@ conda activate mmb5009_edward
 │   ├── 1_extract_accessions.py
 │   ├── 2_protein_accessions_downloader.py
 │   └── data/
-├── 3_Exact_Matching_Algorithms/            # Task 3 scripts
+├── 3_Matching_Algorithms/            # Task 3 scripts
 │   ├── run_matching_algorithms.sh
 │   ├── scripts/
 │   │   ├── 0_dna_sequence_generator.py
@@ -171,9 +171,15 @@ python 2_protein_accessions_downloader.py \
 ---
 ---
 
-## Task 3: Exact Matching Algorithms
+## Task 3: Matching Algorithms
 
 Implements and compares naive, Boyer-Moore, and pigeon-hole string matching algorithms on DNA sequences.
+
+<h3 align="center">Flowchart of Task 3</h3>
+<p align="center">
+  <img src="3_Matching_Algorithms/matching_algorithms_flowchart.png" alt="Flowchart showing the matching algorithm pipeline." width="500">
+</p>
+
 
 ### Prerequisites
 - Active internet connection required for GRCh38_chr22.fa download.
@@ -181,7 +187,7 @@ Implements and compares naive, Boyer-Moore, and pigeon-hole string matching algo
 ### Directory Structure
 
 ```
-3_Exact_Matching_Algorithms/
+3_Matching_Algorithms/
 └── data/
     ├── 1_dna_sequence_data/
     │   ├── GRCh38_chr22.fa
@@ -207,14 +213,14 @@ Implements and compares naive, Boyer-Moore, and pigeon-hole string matching algo
 
 ```bash
 cd ..
-cd 3_Exact_Matching_Algorithms/
+cd 3_Matching_Algorithms/
 chmod +x run_matching_algorithms.sh
 ./run_matching_algorithms.sh \
   data \
-  43 \
-  "15,50" \
+  42 \
+  "15,50,120" \
   2 \
-  2
+  5
 ```
 
 #### Parameters (all optional with defaults):
@@ -245,7 +251,7 @@ The master script runs all components automatically, but individual steps can be
 python scripts/0_dna_sequence_generator.py \
   --output_dir "data" \
   --seed 42 \
-  --motif_lengths 15,50 \
+  --motif_lengths 15,50,120 \
   --families_per_length 2 \
   --max_k 2
 
@@ -430,7 +436,7 @@ bash scripts/3_star_alignment.sh \
   "data/3-1_reference" \
   "data/3-2_star_index" \
   "data/3-3_aligned" \
-  8
+  10
 
 # Step 4: Download annotations
 bash scripts/4_download_annotations.sh \
