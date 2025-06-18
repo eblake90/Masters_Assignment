@@ -1,0 +1,2368 @@
+{
+  "P22626": {
+    "protein_name": "Heterogeneous nuclear ribonucleoproteins A2/B1",
+    "accessions": {
+      "primary": "P22626",
+      "secondary": [
+        "A0A024RA27",
+        "A0A024RA61",
+        "A8K064",
+        "P22627",
+        "Q9UC98",
+        "Q9UDJ2"
+      ]
+    },
+    "gene": "HNRNPA2B1",
+    "status": "UniProtKB reviewed (Swiss-Prot)",
+    "organism": "Homo sapiens",
+    "variant_ids": [
+      {
+        "position": "302",
+        "description": "in IBMPFD2; dbSNP:rs397515326"
+      }
+    ],
+    "gene_ontology": [
+      {
+        "go_id": "GO:0015030",
+        "term": "C:Cajal body",
+        "evidence": "ISS:BHF-UCL"
+      },
+      {
+        "go_id": "GO:0071013",
+        "term": "C:catalytic step 2 spliceosome",
+        "evidence": "IDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:0000781",
+        "term": "C:chromosome, telomeric region",
+        "evidence": "ISS:BHF-UCL"
+      },
+      {
+        "go_id": "GO:0005737",
+        "term": "C:cytoplasm",
+        "evidence": "IDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:0070062",
+        "term": "C:extracellular exosome",
+        "evidence": "IDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:0016020",
+        "term": "C:membrane",
+        "evidence": "HDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:0016363",
+        "term": "C:nuclear matrix",
+        "evidence": "ISS:BHF-UCL"
+      },
+      {
+        "go_id": "GO:0005654",
+        "term": "C:nucleoplasm",
+        "evidence": "IDA:HPA"
+      },
+      {
+        "go_id": "GO:0005634",
+        "term": "C:nucleus",
+        "evidence": "IDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:1990904",
+        "term": "C:ribonucleoprotein complex",
+        "evidence": "IDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:0005681",
+        "term": "C:spliceosomal complex",
+        "evidence": "IDA:HGNC-UCL"
+      },
+      {
+        "go_id": "GO:0070182",
+        "term": "F:DNA polymerase binding",
+        "evidence": "ISS:ARUK-UCL"
+      },
+      {
+        "go_id": "GO:0098505",
+        "term": "F:G-rich strand telomeric DNA binding",
+        "evidence": "ISS:BHF-UCL"
+      },
+      {
+        "go_id": "GO:0042802",
+        "term": "F:identical protein binding",
+        "evidence": "IPI:IntAct"
+      },
+      {
+        "go_id": "GO:0035198",
+        "term": "F:miRNA binding",
+        "evidence": "IDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:0140693",
+        "term": "F:molecular condensate scaffold activity",
+        "evidence": "IDA:DisProt"
+      },
+      {
+        "go_id": "GO:0003730",
+        "term": "F:mRNA 3'-UTR binding",
+        "evidence": "IDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:1990247",
+        "term": "F:N6-methyladenosine-containing RNA reader activity",
+        "evidence": "IDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:0003723",
+        "term": "F:RNA binding",
+        "evidence": "IDA:HGNC-UCL"
+      },
+      {
+        "go_id": "GO:0043047",
+        "term": "F:single-stranded telomeric DNA binding",
+        "evidence": "IDA:HGNC-UCL"
+      },
+      {
+        "go_id": "GO:0032392",
+        "term": "P:DNA geometric change",
+        "evidence": "ISS:BHF-UCL"
+      },
+      {
+        "go_id": "GO:1990428",
+        "term": "P:miRNA transport",
+        "evidence": "IDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:0006406",
+        "term": "P:mRNA export from nucleus",
+        "evidence": "IDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:0006397",
+        "term": "P:mRNA processing",
+        "evidence": "IDA:HGNC-UCL"
+      },
+      {
+        "go_id": "GO:0000398",
+        "term": "P:mRNA splicing, via spliceosome",
+        "evidence": "IMP:UniProtKB"
+      },
+      {
+        "go_id": "GO:0051028",
+        "term": "P:mRNA transport",
+        "evidence": "IBA:GO_Central"
+      },
+      {
+        "go_id": "GO:1904358",
+        "term": "P:positive regulation of telomere maintenance via telomere lengthening",
+        "evidence": "ISS:BHF-UCL"
+      },
+      {
+        "go_id": "GO:0031053",
+        "term": "P:primary miRNA processing",
+        "evidence": "IDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:0050658",
+        "term": "P:RNA transport",
+        "evidence": "IDA:HGNC-UCL"
+      }
+    ],
+    "diseases": [
+      {
+        "diseaseId": "Inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia 2",
+        "description": "An autosomal dominant disease characterized by disabling muscle weakness clinically resembling to limb girdle muscular dystrophy, osteolytic bone lesions consistent with Paget disease, and premature frontotemporal dementia. Clinical features show incomplete penetrance.",
+        "UniProt classification": "DI-03892"
+      },
+      {
+        "diseaseId": "Oculopharyngeal muscular dystrophy 2",
+        "description": "An autosomal dominant, early-onset myopathy characterized by progressive muscle weakness, ptosis, ophthalmoplegia, dysphagia, and variable degrees of respiratory insufficiency.",
+        "UniProt classification": "DI-06737"
+      }
+    ],
+    "families_domains": {
+      "families": [
+        {
+          "id": "PF11627",
+          "name": "HnRNPA1_LC",
+          "database": "Pfam"
+        },
+        {
+          "id": "PF00076",
+          "name": "RRM_1",
+          "database": "Pfam"
+        },
+        {
+          "id": "SSF54928",
+          "name": "RNA-binding domain, RBD",
+          "database": "SUPFAM"
+        }
+      ],
+      "domains": [
+        {
+          "id": "3.30.70.330",
+          "name": "-",
+          "database": "Gene3D"
+        },
+        {
+          "type": "Domain",
+          "description": "RRM 1",
+          "start": 21,
+          "end": 104
+        },
+        {
+          "type": "Domain",
+          "description": "RRM 2",
+          "start": 112,
+          "end": 191
+        }
+      ]
+    },
+    "sequence_isoforms": {
+      "canonical": "MEKTLETVPLERKKREKEQFRKLFIGGLSFETTEESLRNYYEQWGKLTDCVVMRDPASKRSRGFGFVTFSSMAEVDAAMAARPHSIDGRVVEPKRAVAREESGKPGAHVTVKKLFVGGIKEDTEEHHLRDYFEEYGKIDTIEIITDRQSGKKRGFGFVTFDDHDPVDKIVLQKYHTINGHNAEVRKALSRQEMQEVQSSRSGRGGNFGFGDSRGGGGNFGPGPGSNFRGGSDGYGSGRGFGDGYNGYGGGPGGGNFGGSPGYGGGRGGYGGGGPGYGNQGGGYGGGYDNYGGGNYGSGNYNDFGNYNQQPSNYGPMKSGNFGGSRNMGGPYGGGNYGPGGSGGSGGYGGRSRY",
+      "isoforms": [
+        {
+          "name": "B1",
+          "id": "P22626-1",
+          "status": "Displayed"
+        },
+        {
+          "name": "A2",
+          "id": "P22626-2",
+          "status": "Described"
+        }
+      ]
+    },
+    "regions": [
+      {
+        "description": "Disordered",
+        "start": {
+          "value": 193,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 353,
+          "modifier": "EXACT"
+        }
+      },
+      {
+        "description": "Nuclear targeting sequence",
+        "start": {
+          "value": 308,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 347,
+          "modifier": "EXACT"
+        }
+      }
+    ]
+  },
+  "P60709": {
+    "protein_name": "Actin, cytoplasmic 1",
+    "accessions": {
+      "primary": "P60709",
+      "secondary": [
+        "P02570",
+        "P70514",
+        "P99021",
+        "Q11211",
+        "Q64316",
+        "Q75MN2",
+        "Q96B34",
+        "Q96HG5"
+      ]
+    },
+    "gene": "ACTB",
+    "status": "UniProtKB reviewed (Swiss-Prot)",
+    "organism": "Homo sapiens",
+    "variant_ids": [
+      {
+        "position": "12",
+        "description": "in BRWS1; dbSNP:rs281875331"
+      },
+      {
+        "position": "65",
+        "description": "in BRWS1; dbSNP:rs281875332"
+      },
+      {
+        "position": "70",
+        "description": "in BRWS1; likely pathogenic"
+      },
+      {
+        "position": "111",
+        "description": "in CSMH; uncertain significance; somatic variant"
+      },
+      {
+        "position": "137",
+        "description": "in CSMH; uncertain significance; somatic variant"
+      },
+      {
+        "position": "146",
+        "description": "in CSMH; somatic variant"
+      },
+      {
+        "position": "146",
+        "description": "in CSMH; somatic variant"
+      },
+      {
+        "position": "146",
+        "description": "in CSMH; somatic variant"
+      },
+      {
+        "position": "146",
+        "description": "in CSMH; somatic variant"
+      },
+      {
+        "position": "147",
+        "description": "in BNS and CSMH; also found in isolated non-syndromic Becker nevi; somatic variant"
+      },
+      {
+        "position": "147",
+        "description": "in CSMH; also found in isolated non-syndromic Becker nevi; somatic variant"
+      },
+      {
+        "position": "171",
+        "description": "in THC8; likely pathogenic"
+      },
+      {
+        "position": "183",
+        "description": "in DDS1; likely pathogenic; results in reduced actin polymerization rate and increased depolymerization; results in higher ATP hydrolysis compared to the wild type; does not affect thermal stability; modifies cell response to latrunculin A; dbSNP:rs104894003"
+      },
+      {
+        "position": "196",
+        "description": "in BRWS1; dbSNP:rs281875333"
+      },
+      {
+        "position": "196",
+        "description": "in BRWS1; dbSNP:rs281875334"
+      },
+      {
+        "position": "243",
+        "description": "in dbSNP:rs11546899"
+      },
+      {
+        "position": "313",
+        "description": "in THC8; uncertain significance"
+      },
+      {
+        "position": "338",
+        "description": "in THC8; likely pathogenic"
+      },
+      {
+        "position": "364",
+        "description": "in THC8; uncertain significance; results in reduced actin polymerization rate without affecting depolymerization; has no effect on ATP hydrolysis rate; does not affect thermal stability"
+      }
+    ],
+    "gene_ontology": [
+      {
+        "go_id": "GO:0015629",
+        "term": "C:actin cytoskeleton",
+        "evidence": "IDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:0005884",
+        "term": "C:actin filament",
+        "evidence": "IBA:GO_Central"
+      },
+      {
+        "go_id": "GO:0005912",
+        "term": "C:adherens junction",
+        "evidence": "IDA:ARUK-UCL"
+      },
+      {
+        "go_id": "GO:0043296",
+        "term": "C:apical junction complex",
+        "evidence": "IDA:ARUK-UCL"
+      },
+      {
+        "go_id": "GO:0030424",
+        "term": "C:axon",
+        "evidence": "IBA:GO_Central"
+      },
+      {
+        "go_id": "GO:0140092",
+        "term": "C:bBAF complex",
+        "evidence": "NAS:ComplexPortal"
+      },
+      {
+        "go_id": "GO:0072562",
+        "term": "C:blood microparticle",
+        "evidence": "HDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:0035060",
+        "term": "C:brahma complex",
+        "evidence": "NAS:ComplexPortal"
+      },
+      {
+        "go_id": "GO:0005903",
+        "term": "C:brush border",
+        "evidence": "IEA:Ensembl"
+      },
+      {
+        "go_id": "GO:0044305",
+        "term": "C:calyx of Held",
+        "evidence": "IEA:Ensembl"
+      },
+      {
+        "go_id": "GO:0005911",
+        "term": "C:cell-cell junction",
+        "evidence": "IMP:ARUK-UCL"
+      },
+      {
+        "go_id": "GO:0000785",
+        "term": "C:chromatin",
+        "evidence": "HDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:0030863",
+        "term": "C:cortical cytoskeleton",
+        "evidence": "IEA:Ensembl"
+      },
+      {
+        "go_id": "GO:0005737",
+        "term": "C:cytoplasm",
+        "evidence": "IDA:ARUK-UCL"
+      },
+      {
+        "go_id": "GO:0036464",
+        "term": "C:cytoplasmic ribonucleoprotein granule",
+        "evidence": "IDA:ParkinsonsUK-UCL"
+      },
+      {
+        "go_id": "GO:0005856",
+        "term": "C:cytoskeleton",
+        "evidence": "IDA:ARUK-UCL"
+      },
+      {
+        "go_id": "GO:0005829",
+        "term": "C:cytosol",
+        "evidence": "TAS:Reactome"
+      },
+      {
+        "go_id": "GO:0097433",
+        "term": "C:dense body",
+        "evidence": "ISS:AgBase"
+      },
+      {
+        "go_id": "GO:0070062",
+        "term": "C:extracellular exosome",
+        "evidence": "HDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:0005615",
+        "term": "C:extracellular space",
+        "evidence": "HDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:0005925",
+        "term": "C:focal adhesion",
+        "evidence": "HDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:0140288",
+        "term": "C:GBAF complex",
+        "evidence": "NAS:ComplexPortal"
+      },
+      {
+        "go_id": "GO:0098978",
+        "term": "C:glutamatergic synapse",
+        "evidence": "IDA:SynGO"
+      },
+      {
+        "go_id": "GO:0000776",
+        "term": "C:kinetochore",
+        "evidence": "NAS:ComplexPortal"
+      },
+      {
+        "go_id": "GO:0030027",
+        "term": "C:lamellipodium",
+        "evidence": "IDA:ARUK-UCL"
+      },
+      {
+        "go_id": "GO:0016020",
+        "term": "C:membrane",
+        "evidence": "HDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:0071565",
+        "term": "C:nBAF complex",
+        "evidence": "NAS:ComplexPortal"
+      },
+      {
+        "go_id": "GO:0071564",
+        "term": "C:npBAF complex",
+        "evidence": "NAS:ComplexPortal"
+      },
+      {
+        "go_id": "GO:0035267",
+        "term": "C:NuA4 histone acetyltransferase complex",
+        "evidence": "IDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:0016363",
+        "term": "C:nuclear matrix",
+        "evidence": "NAS:ComplexPortal"
+      },
+      {
+        "go_id": "GO:0005654",
+        "term": "C:nucleoplasm",
+        "evidence": "TAS:Reactome"
+      },
+      {
+        "go_id": "GO:0000786",
+        "term": "C:nucleosome",
+        "evidence": "IDA:ComplexPortal"
+      },
+      {
+        "go_id": "GO:0005634",
+        "term": "C:nucleus",
+        "evidence": "IDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:0005886",
+        "term": "C:plasma membrane",
+        "evidence": "ISS:AgBase"
+      },
+      {
+        "go_id": "GO:0098871",
+        "term": "C:postsynaptic actin cytoskeleton",
+        "evidence": "IDA:SynGO"
+      },
+      {
+        "go_id": "GO:0098793",
+        "term": "C:presynapse",
+        "evidence": "TAS:ARUK-UCL"
+      },
+      {
+        "go_id": "GO:0032991",
+        "term": "C:protein-containing complex",
+        "evidence": "IDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:1990904",
+        "term": "C:ribonucleoprotein complex",
+        "evidence": "IDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:0016586",
+        "term": "C:RSC-type complex",
+        "evidence": "NAS:ComplexPortal"
+      },
+      {
+        "go_id": "GO:0098685",
+        "term": "C:Schaffer collateral - CA1 synapse",
+        "evidence": "IEA:Ensembl"
+      },
+      {
+        "go_id": "GO:0016514",
+        "term": "C:SWI/SNF complex",
+        "evidence": "NAS:ComplexPortal"
+      },
+      {
+        "go_id": "GO:0045202",
+        "term": "C:synapse",
+        "evidence": "IBA:GO_Central"
+      },
+      {
+        "go_id": "GO:0070160",
+        "term": "C:tight junction",
+        "evidence": "IDA:ARUK-UCL"
+      },
+      {
+        "go_id": "GO:0031982",
+        "term": "C:vesicle",
+        "evidence": "HDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:0005524",
+        "term": "F:ATP binding",
+        "evidence": "IEA:UniProtKB-KW"
+      },
+      {
+        "go_id": "GO:0016887",
+        "term": "F:ATP hydrolysis activity",
+        "evidence": "IDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:0042802",
+        "term": "F:identical protein binding",
+        "evidence": "IPI:IntAct"
+      },
+      {
+        "go_id": "GO:0019894",
+        "term": "F:kinesin binding",
+        "evidence": "IPI:UniProtKB"
+      },
+      {
+        "go_id": "GO:0050998",
+        "term": "F:nitric-oxide synthase binding",
+        "evidence": "IPI:BHF-UCL"
+      },
+      {
+        "go_id": "GO:0019901",
+        "term": "F:protein kinase binding",
+        "evidence": "IPI:ARUK-UCL"
+      },
+      {
+        "go_id": "GO:0005200",
+        "term": "F:structural constituent of cytoskeleton",
+        "evidence": "TAS:UniProtKB"
+      },
+      {
+        "go_id": "GO:0098973",
+        "term": "F:structural constituent of postsynaptic actin cytoskeleton",
+        "evidence": "IDA:SynGO"
+      },
+      {
+        "go_id": "GO:0030957",
+        "term": "F:Tat protein binding",
+        "evidence": "IPI:BHF-UCL"
+      },
+      {
+        "go_id": "GO:0048156",
+        "term": "F:tau protein binding",
+        "evidence": "NAS:ARUK-UCL"
+      },
+      {
+        "go_id": "GO:0141108",
+        "term": "F:transporter regulator activity",
+        "evidence": "IGI:ARUK-UCL"
+      },
+      {
+        "go_id": "GO:0034333",
+        "term": "P:adherens junction assembly",
+        "evidence": "IMP:ARUK-UCL"
+      },
+      {
+        "go_id": "GO:0045176",
+        "term": "P:apical protein localization",
+        "evidence": "IMP:ARUK-UCL"
+      },
+      {
+        "go_id": "GO:0007409",
+        "term": "P:axonogenesis",
+        "evidence": "IBA:GO_Central"
+      },
+      {
+        "go_id": "GO:0048870",
+        "term": "P:cell motility",
+        "evidence": "IMP:UniProtKB"
+      },
+      {
+        "go_id": "GO:0072749",
+        "term": "P:cellular response to cytochalasin B",
+        "evidence": "IMP:UniProtKB"
+      },
+      {
+        "go_id": "GO:0006338",
+        "term": "P:chromatin remodeling",
+        "evidence": "HDA:GO_Central"
+      },
+      {
+        "go_id": "GO:0007010",
+        "term": "P:cytoskeleton organization",
+        "evidence": "ISS:ARUK-UCL"
+      },
+      {
+        "go_id": "GO:0007163",
+        "term": "P:establishment or maintenance of cell polarity",
+        "evidence": "IMP:ARUK-UCL"
+      },
+      {
+        "go_id": "GO:0035633",
+        "term": "P:maintenance of blood-brain barrier",
+        "evidence": "NAS:ARUK-UCL"
+      },
+      {
+        "go_id": "GO:0001738",
+        "term": "P:morphogenesis of a polarized epithelium",
+        "evidence": "IMP:ARUK-UCL"
+      },
+      {
+        "go_id": "GO:0045596",
+        "term": "P:negative regulation of cell differentiation",
+        "evidence": "NAS:ComplexPortal"
+      },
+      {
+        "go_id": "GO:0070527",
+        "term": "P:platelet aggregation",
+        "evidence": "HMP:UniProtKB"
+      },
+      {
+        "go_id": "GO:0045597",
+        "term": "P:positive regulation of cell differentiation",
+        "evidence": "NAS:ComplexPortal"
+      },
+      {
+        "go_id": "GO:0008284",
+        "term": "P:positive regulation of cell population proliferation",
+        "evidence": "NAS:ComplexPortal"
+      },
+      {
+        "go_id": "GO:0045893",
+        "term": "P:positive regulation of DNA-templated transcription",
+        "evidence": "NAS:ComplexPortal"
+      },
+      {
+        "go_id": "GO:2000781",
+        "term": "P:positive regulation of double-strand break repair",
+        "evidence": "NAS:ComplexPortal"
+      },
+      {
+        "go_id": "GO:1905168",
+        "term": "P:positive regulation of double-strand break repair via homologous recombination",
+        "evidence": "IDA:ComplexPortal"
+      },
+      {
+        "go_id": "GO:0045663",
+        "term": "P:positive regulation of myoblast differentiation",
+        "evidence": "NAS:ComplexPortal"
+      },
+      {
+        "go_id": "GO:0051623",
+        "term": "P:positive regulation of norepinephrine uptake",
+        "evidence": "TAS:ARUK-UCL"
+      },
+      {
+        "go_id": "GO:1902459",
+        "term": "P:positive regulation of stem cell population maintenance",
+        "evidence": "NAS:ComplexPortal"
+      },
+      {
+        "go_id": "GO:0045582",
+        "term": "P:positive regulation of T cell differentiation",
+        "evidence": "NAS:ComplexPortal"
+      },
+      {
+        "go_id": "GO:0071896",
+        "term": "P:protein localization to adherens junction",
+        "evidence": "IMP:ARUK-UCL"
+      },
+      {
+        "go_id": "GO:0042981",
+        "term": "P:regulation of apoptotic process",
+        "evidence": "NAS:ComplexPortal"
+      },
+      {
+        "go_id": "GO:0051726",
+        "term": "P:regulation of cell cycle",
+        "evidence": "IMP:ComplexPortal"
+      },
+      {
+        "go_id": "GO:2000779",
+        "term": "P:regulation of double-strand break repair",
+        "evidence": "NAS:ComplexPortal"
+      },
+      {
+        "go_id": "GO:0070316",
+        "term": "P:regulation of G0 to G1 transition",
+        "evidence": "NAS:ComplexPortal"
+      },
+      {
+        "go_id": "GO:2000045",
+        "term": "P:regulation of G1/S transition of mitotic cell cycle",
+        "evidence": "NAS:ComplexPortal"
+      },
+      {
+        "go_id": "GO:0030071",
+        "term": "P:regulation of mitotic metaphase/anaphase transition",
+        "evidence": "NAS:ComplexPortal"
+      },
+      {
+        "go_id": "GO:0051621",
+        "term": "P:regulation of norepinephrine uptake",
+        "evidence": "IGI:ARUK-UCL"
+      },
+      {
+        "go_id": "GO:2000819",
+        "term": "P:regulation of nucleotide-excision repair",
+        "evidence": "NAS:ComplexPortal"
+      },
+      {
+        "go_id": "GO:1903076",
+        "term": "P:regulation of protein localization to plasma membrane",
+        "evidence": "IMP:ARUK-UCL"
+      },
+      {
+        "go_id": "GO:1900242",
+        "term": "P:regulation of synaptic vesicle endocytosis",
+        "evidence": "IEA:Ensembl"
+      },
+      {
+        "go_id": "GO:0006357",
+        "term": "P:regulation of transcription by RNA polymerase II",
+        "evidence": "NAS:ComplexPortal"
+      },
+      {
+        "go_id": "GO:0150111",
+        "term": "P:regulation of transepithelial transport",
+        "evidence": "IMP:ARUK-UCL"
+      },
+      {
+        "go_id": "GO:0021762",
+        "term": "P:substantia nigra development",
+        "evidence": "HEP:UniProtKB"
+      }
+    ],
+    "diseases": [
+      {
+        "diseaseId": "Dystonia-deafness syndrome 1",
+        "description": "An autosomal dominant form of dystonia with juvenile onset, associated with congenital or childhood-onset sensorineural deafness. Dystonia is defined by the presence of sustained involuntary muscle contraction, often leading to abnormal postures. Some DDS1 patients have dysmorphic features, skeletal anomalies, and/or mild developmental delay with impaired intellectual development.",
+        "UniProt classification": "DI-00412"
+      },
+      {
+        "diseaseId": "Baraitser-Winter syndrome 1",
+        "description": "A rare developmental disorder characterized by the combination of congenital ptosis, high-arched eyebrows, hypertelorism, ocular colobomata, and a brain malformation consisting of anterior-predominant lissencephaly. Other typical features include postnatal short stature and microcephaly, intellectual disability, seizures, and hearing loss.",
+        "UniProt classification": "DI-03416"
+      },
+      {
+        "diseaseId": "Thrombocytopenia 8, with dysmorphic features and developmental delay",
+        "description": "A form of thrombocytopenia, a hematologic disorder defined by a decrease in the number of platelets in circulating blood, resulting in the potential for increased bleeding and decreased ability for clotting. THC8 is an autosomal dominant form characterized by early-childhood onset of thrombocytopenia with platelet anisotropy. Affected individuals also have dysmorphic facial features and variable developmental delay with speech delay and mildly impaired intellectual development.",
+        "UniProt classification": "DI-06744"
+      },
+      {
+        "diseaseId": "Becker nevus syndrome",
+        "description": "A syndrome characterized by the association of Becker nevi with musculoskeletal abnormalities, unilateral breast hypoplasia, intellectual disability, developmental delay, and cardiomyopathy. Becker nevus is a cutaneous hamartoma that appears in childhood as a unilateral tan patch and increases in thickness, pigmentation, and hair growth during adolescence. Histologically, epidermal acanthosis is accompanied by irregularly dispersed ectopic smooth muscle bundles and increased terminal hair follicles. Most cases are sporadic.",
+        "UniProt classification": "DI-06747"
+      },
+      {
+        "diseaseId": "Congenital smooth muscle hamartoma, with or without hemihypertrophy",
+        "description": "A benign skin lesion that usually presents as an indurated, slightly pigmented or flesh-colored plaque with perifollicular papules or coarse hair. Histopathologically, there is excessive proliferation of ectopic smooth muscle within the dermis. Hair follicles are normal in number and hyperkeratosis, acanthosis and hyperpigmentation of the basal cell layer can sometimes be seen. Rarely, CSMH is associated with hemihypertrophy.",
+        "UniProt classification": "DI-06743"
+      }
+    ],
+    "families_domains": {
+      "families": [
+        {
+          "id": "PF00022",
+          "name": "Actin",
+          "database": "Pfam"
+        },
+        {
+          "id": "SSF53067",
+          "name": "Actin-like ATPase domain",
+          "database": "SUPFAM"
+        }
+      ],
+      "domains": [
+        {
+          "id": "3.30.420.40",
+          "name": "-",
+          "database": "Gene3D"
+        },
+        {
+          "id": "3.90.640.10",
+          "name": "Actin, Chain A, domain 4",
+          "database": "Gene3D"
+        }
+      ]
+    },
+    "sequence_isoforms": {
+      "canonical": "MDDDIAALVVDNGSGMCKAGFAGDDAPRAVFPSIVGRPRHQGVMVGMGQKDSYVGDEAQSKRGILTLKYPIEHGIVTNWDDMEKIWHHTFYNELRVAPEEHPVLLTEAPLNPKANREKMTQIMFETFNTPAMYVAIQAVLSLYASGRTTGIVMDSGDGVTHTVPIYEGYALPHAILRLDLAGRDLTDYLMKILTERGYSFTTTAEREIVRDIKEKLCYVALDFEQEMATAASSSSLEKSYELPDGQVITIGNERFRCPEALFQPSFLGMESCGIHETTFNSIMKCDVDIRKDLYANTVLSGGTTMYPGIADRMQKEITALAPSTMKIKIIAPPERKYSVWIGGSILASLSTFQQMWISKQEYDESGPSIVHRKCF",
+      "isoforms": []
+    },
+    "regions": []
+  },
+  "P62736": {
+    "protein_name": "Actin, aortic smooth muscle",
+    "accessions": {
+      "primary": "P62736",
+      "secondary": [
+        "B2R8A4",
+        "P03996",
+        "P04108",
+        "Q6FI19"
+      ]
+    },
+    "gene": "ACTA2",
+    "status": "UniProtKB reviewed (Swiss-Prot)",
+    "organism": "Homo sapiens",
+    "variant_ids": [
+      {
+        "position": "39",
+        "description": "in AAT6; dbSNP:rs794728021"
+      },
+      {
+        "position": "117",
+        "description": "in AAT6"
+      },
+      {
+        "position": "118",
+        "description": "in AAT6; dbSNP:rs112602953"
+      },
+      {
+        "position": "135",
+        "description": "in AAT6; dbSNP:rs751300489"
+      },
+      {
+        "position": "145",
+        "description": "in AAT6"
+      },
+      {
+        "position": "149",
+        "description": "in AAT6; dbSNP:rs121434526"
+      },
+      {
+        "position": "154",
+        "description": "in AAT6; dbSNP:rs1554841298"
+      },
+      {
+        "position": "179",
+        "description": "in SMDYS; dbSNP:rs886039303"
+      },
+      {
+        "position": "179",
+        "description": "in MYMY5 and SMDYS; disease phenotype include smooth muscle cells dysfunction in organs throughout the body with decreased contractile function in the iris, bladder and gastrointestinal tract; dbSNP:rs387906592"
+      },
+      {
+        "position": "185",
+        "description": "in AAT6; dbSNP:rs1057521105"
+      },
+      {
+        "position": "196",
+        "description": "in dbSNP:rs1803028"
+      },
+      {
+        "position": "212",
+        "description": "in AAT6; dbSNP:rs397516685"
+      },
+      {
+        "position": "258",
+        "description": "in AAT6; dbSNP:rs121434528"
+      },
+      {
+        "position": "258",
+        "description": "in AAT6; dbSNP:rs121434527"
+      },
+      {
+        "position": "292",
+        "description": "in AAT6"
+      },
+      {
+        "position": "320",
+        "description": "in dbSNP:rs1803027"
+      },
+      {
+        "position": "326",
+        "description": "in AAT6; dbSNP:rs777832794"
+      },
+      {
+        "position": "353",
+        "description": "in AAT6"
+      },
+      {
+        "position": "373",
+        "description": "in dbSNP:rs1062398"
+      }
+    ],
+    "gene_ontology": [
+      {
+        "go_id": "GO:0015629",
+        "term": "C:actin cytoskeleton",
+        "evidence": "IBA:GO_Central"
+      },
+      {
+        "go_id": "GO:0005604",
+        "term": "C:basement membrane",
+        "evidence": "IEA:Ensembl"
+      },
+      {
+        "go_id": "GO:0044297",
+        "term": "C:cell body",
+        "evidence": "ISS:AgBase"
+      },
+      {
+        "go_id": "GO:0005737",
+        "term": "C:cytoplasm",
+        "evidence": "IDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:0005829",
+        "term": "C:cytosol",
+        "evidence": "TAS:Reactome"
+      },
+      {
+        "go_id": "GO:0070062",
+        "term": "C:extracellular exosome",
+        "evidence": "HDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:0005615",
+        "term": "C:extracellular space",
+        "evidence": "HDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:0030175",
+        "term": "C:filopodium",
+        "evidence": "ISS:AgBase"
+      },
+      {
+        "go_id": "GO:0030027",
+        "term": "C:lamellipodium",
+        "evidence": "ISS:AgBase"
+      },
+      {
+        "go_id": "GO:0031514",
+        "term": "C:motile cilium",
+        "evidence": "IEA:Ensembl"
+      },
+      {
+        "go_id": "GO:0032991",
+        "term": "C:protein-containing complex",
+        "evidence": "IDA:MGI"
+      },
+      {
+        "go_id": "GO:0030485",
+        "term": "C:smooth muscle contractile fiber",
+        "evidence": "IEA:Ensembl"
+      },
+      {
+        "go_id": "GO:0001725",
+        "term": "C:stress fiber",
+        "evidence": "IEA:Ensembl"
+      },
+      {
+        "go_id": "GO:0005524",
+        "term": "F:ATP binding",
+        "evidence": "IEA:UniProtKB-KW"
+      },
+      {
+        "go_id": "GO:0016787",
+        "term": "F:hydrolase activity",
+        "evidence": "IEA:UniProtKB-KW"
+      },
+      {
+        "go_id": "GO:0019901",
+        "term": "F:protein kinase binding",
+        "evidence": "ISS:ParkinsonsUK-UCL"
+      },
+      {
+        "go_id": "GO:0071560",
+        "term": "P:cellular response to transforming growth factor beta stimulus",
+        "evidence": "IEA:Ensembl"
+      },
+      {
+        "go_id": "GO:0072144",
+        "term": "P:glomerular mesangial cell development",
+        "evidence": "IEP:UniProtKB"
+      },
+      {
+        "go_id": "GO:0072051",
+        "term": "P:juxtaglomerular apparatus development",
+        "evidence": "IEA:Ensembl"
+      },
+      {
+        "go_id": "GO:0090131",
+        "term": "P:mesenchyme migration",
+        "evidence": "ISS:AgBase"
+      },
+      {
+        "go_id": "GO:0070374",
+        "term": "P:positive regulation of ERK1 and ERK2 cascade",
+        "evidence": "IEA:Ensembl"
+      },
+      {
+        "go_id": "GO:0010628",
+        "term": "P:positive regulation of gene expression",
+        "evidence": "ISS:AgBase"
+      },
+      {
+        "go_id": "GO:2000491",
+        "term": "P:positive regulation of hepatic stellate cell activation",
+        "evidence": "IEA:Ensembl"
+      },
+      {
+        "go_id": "GO:0061874",
+        "term": "P:positive regulation of hepatic stellate cell contraction",
+        "evidence": "IEA:Ensembl"
+      },
+      {
+        "go_id": "GO:0061870",
+        "term": "P:positive regulation of hepatic stellate cell migration",
+        "evidence": "IEA:Ensembl"
+      },
+      {
+        "go_id": "GO:0008217",
+        "term": "P:regulation of blood pressure",
+        "evidence": "IEA:Ensembl"
+      },
+      {
+        "go_id": "GO:0009615",
+        "term": "P:response to virus",
+        "evidence": "IEP:UniProtKB"
+      },
+      {
+        "go_id": "GO:0014829",
+        "term": "P:vascular associated smooth muscle contraction",
+        "evidence": "IEA:Ensembl"
+      }
+    ],
+    "diseases": [
+      {
+        "diseaseId": "",
+        "description": "",
+        "UniProt classification": ""
+      },
+      {
+        "diseaseId": "Aortic aneurysm, familial thoracic 6",
+        "description": "A disease characterized by permanent dilation of the thoracic aorta usually due to degenerative changes in the aortic wall. It is primarily associated with a characteristic histologic appearance known as 'medial necrosis' or 'Erdheim cystic medial necrosis' in which there is degeneration and fragmentation of elastic fibers, loss of smooth muscle cells, and an accumulation of basophilic ground substance.",
+        "UniProt classification": "DI-00130"
+      },
+      {
+        "diseaseId": "Moyamoya disease 5",
+        "description": "A progressive cerebral angiopathy characterized by bilateral intracranial carotid artery stenosis and telangiectatic vessels in the region of the basal ganglia. The abnormal vessels resemble a 'puff of smoke' (moyamoya) on cerebral angiogram. Affected individuals can develop transient ischemic attacks and/or cerebral infarction, and rupture of the collateral vessels can cause intracranial hemorrhage. Hemiplegia of sudden onset and epileptic seizures constitute the prevailing presentation in childhood, while subarachnoid bleeding occurs more frequently in adults.",
+        "UniProt classification": "DI-03141"
+      },
+      {
+        "diseaseId": "Smooth muscle dysfunction syndrome",
+        "description": "An autosomal dominant syndrome characterized by dysfunction of smooth muscle cells throughout the body, leading to aortic and cerebrovascular disease, fixed dilated pupils, hypotonic bladder, malrotation, and hypoperistalsis of the gut and pulmonary hypertension.",
+        "UniProt classification": "DI-03109"
+      }
+    ],
+    "families_domains": {
+      "families": [
+        {
+          "id": "PF00022",
+          "name": "Actin",
+          "database": "Pfam"
+        },
+        {
+          "id": "SSF53067",
+          "name": "Actin-like ATPase domain",
+          "database": "SUPFAM"
+        }
+      ],
+      "domains": [
+        {
+          "id": "3.30.420.40",
+          "name": "-",
+          "database": "Gene3D"
+        },
+        {
+          "id": "3.90.640.10",
+          "name": "Actin, Chain A, domain 4",
+          "database": "Gene3D"
+        }
+      ]
+    },
+    "sequence_isoforms": {
+      "canonical": "MCEEEDSTALVCDNGSGLCKAGFAGDDAPRAVFPSIVGRPRHQGVMVGMGQKDSYVGDEAQSKRGILTLKYPIEHGIITNWDDMEKIWHHSFYNELRVAPEEHPTLLTEAPLNPKANREKMTQIMFETFNVPAMYVAIQAVLSLYASGRTTGIVLDSGDGVTHNVPIYEGYALPHAIMRLDLAGRDLTDYLMKILTERGYSFVTTAEREIVRDIKEKLCYVALDFENEMATAASSSSLEKSYELPDGQVITIGNERFRCPETLFQPSFIGMESAGIHETTYNSIMKCDIDIRKDLYANNVLSGGTTMYPGIADRMQKEITALAPSTMKIKIIAPPERKYSVWIGGSILASLSTFQQMWISKQEYDEAGPSIVHRKCF",
+      "isoforms": []
+    },
+    "regions": []
+  },
+  "P68133": {
+    "protein_name": "Actin, alpha skeletal muscle",
+    "accessions": {
+      "primary": "P68133",
+      "secondary": [
+        "P02568",
+        "P99020",
+        "Q5T8M9"
+      ]
+    },
+    "gene": "ACTA1",
+    "status": "UniProtKB reviewed (Swiss-Prot)",
+    "organism": "Homo sapiens",
+    "variant_ids": [
+      {
+        "position": "3",
+        "description": "in CMYO2A; some patients have core lesions on muscle biopsy; dbSNP:rs121909527"
+      },
+      {
+        "position": "17",
+        "description": "in CMYO2A; dbSNP:rs121909521"
+      },
+      {
+        "position": "17",
+        "description": "in CMYO2A; dbSNP:rs121909521"
+      },
+      {
+        "position": "27",
+        "description": "in CMYO2A"
+      },
+      {
+        "position": "37",
+        "description": "in CMYO2A; dbSNP:rs1553255521"
+      },
+      {
+        "position": "40",
+        "description": "in CMYO2A"
+      },
+      {
+        "position": "42",
+        "description": "in CMYO2A; dbSNP:rs2102736554"
+      },
+      {
+        "position": "43",
+        "description": "in CMYO2A; dbSNP:rs1659984269"
+      },
+      {
+        "position": "44",
+        "description": "in CMYO2A; dbSNP:rs1558082125"
+      },
+      {
+        "position": "45",
+        "description": "in CMYO2A; dbSNP:rs398123562"
+      },
+      {
+        "position": "66",
+        "description": "in CMYO2A; dbSNP:rs1553255502"
+      },
+      {
+        "position": "68",
+        "description": "in CMYO2A"
+      },
+      {
+        "position": "72",
+        "description": "in CMYO2A; dbSNP:rs1659978909"
+      },
+      {
+        "position": "74",
+        "description": "in CMYO2A"
+      },
+      {
+        "position": "75",
+        "description": "in CMYO2A"
+      },
+      {
+        "position": "75",
+        "description": "in CMYO2A"
+      },
+      {
+        "position": "77",
+        "description": "in CMYO2A"
+      },
+      {
+        "position": "79",
+        "description": "in CMYO2A"
+      },
+      {
+        "position": "85",
+        "description": "in CMYO2A"
+      },
+      {
+        "position": "96",
+        "description": "in CMYO2B; dbSNP:rs121909519"
+      },
+      {
+        "position": "116",
+        "description": "in CMYO2A; dbSNP:rs1659975786"
+      },
+      {
+        "position": "116",
+        "description": "in CMYO2A; dbSNP:rs1659975747"
+      },
+      {
+        "position": "117",
+        "description": "in CMYO2A; dbSNP:rs121909520"
+      },
+      {
+        "position": "117",
+        "description": "in CMYO2A"
+      },
+      {
+        "position": "118",
+        "description": "in CMYO2A"
+      },
+      {
+        "position": "134",
+        "description": "in CMYO2A; dbSNP:rs1659974377"
+      },
+      {
+        "position": "136",
+        "description": "in CMYO2A"
+      },
+      {
+        "position": "138",
+        "description": "in CMYO2A; dbSNP:rs121909526"
+      },
+      {
+        "position": "140",
+        "description": "in CMYO2A"
+      },
+      {
+        "position": "142",
+        "description": "in CMYO2A; dbSNP:rs1553255482"
+      },
+      {
+        "position": "148",
+        "description": "in CMYO2A"
+      },
+      {
+        "position": "150",
+        "description": "in CMYO2A"
+      },
+      {
+        "position": "156",
+        "description": "in CMYO2A"
+      },
+      {
+        "position": "165",
+        "description": "in CMYO2A; dbSNP:rs121909522"
+      },
+      {
+        "position": "165",
+        "description": "in CMYO2A; results in sequestration of sarcomeric and Z line proteins into intranuclear aggregates; there is some evidence of muscle regeneration suggesting a compensatory effect; dbSNP:rs121909522"
+      },
+      {
+        "position": "172",
+        "description": "in CMYO2A"
+      },
+      {
+        "position": "181",
+        "description": "in CMYO2A"
+      },
+      {
+        "position": "181",
+        "description": "in CMYO2A"
+      },
+      {
+        "position": "181",
+        "description": "in CMYO2A"
+      },
+      {
+        "position": "184",
+        "description": "in CMYO2A"
+      },
+      {
+        "position": "185",
+        "description": "in CMYO2A; dbSNP:rs1064794287"
+      },
+      {
+        "position": "185",
+        "description": "in CMYO2A; requires 2 nucleotide substitutions"
+      },
+      {
+        "position": "185",
+        "description": "in CMYO2A"
+      },
+      {
+        "position": "185",
+        "description": "in CMYO2A; dbSNP:rs1064794287"
+      },
+      {
+        "position": "197",
+        "description": "in SHPM; no effect on cytoskeleton structure; dbSNP:rs869312739"
+      },
+      {
+        "position": "198",
+        "description": "in CMYO2A"
+      },
+      {
+        "position": "199",
+        "description": "in CMYO2A"
+      },
+      {
+        "position": "223",
+        "description": "in CMYO2C; dbSNP:rs121909530"
+      },
+      {
+        "position": "226",
+        "description": "in CMYO2A"
+      },
+      {
+        "position": "226",
+        "description": "in CMYO2A; dbSNP:rs1057521118"
+      },
+      {
+        "position": "227",
+        "description": "in CMYO2A; requires 2 nucleotide substitutions"
+      },
+      {
+        "position": "229",
+        "description": "in CMYO2A"
+      },
+      {
+        "position": "229",
+        "description": "in CMYO2A"
+      },
+      {
+        "position": "229",
+        "description": "in CMYO2A; dbSNP:rs794727714"
+      },
+      {
+        "position": "243",
+        "description": "in CMYO2A; dbSNP:rs367543051"
+      },
+      {
+        "position": "248",
+        "description": "in CMYO2A; dbSNP:rs1659954634"
+      },
+      {
+        "position": "248",
+        "description": "in CMYO2A"
+      },
+      {
+        "position": "253",
+        "description": "in CMYO2A"
+      },
+      {
+        "position": "258",
+        "description": "in CMYO2A; dbSNP:rs1659953887"
+      },
+      {
+        "position": "258",
+        "description": "in CMYO2A"
+      },
+      {
+        "position": "261",
+        "description": "in CMYO2B; dbSNP:rs121909523"
+      },
+      {
+        "position": "265",
+        "description": "in CMYO2A"
+      },
+      {
+        "position": "270",
+        "description": "in CMYO2A; dbSNP:rs121909525"
+      },
+      {
+        "position": "270",
+        "description": "in CMYO2A; dbSNP:rs1553255362"
+      },
+      {
+        "position": "270",
+        "description": "in CMYO2A; dbSNP:rs121909525"
+      },
+      {
+        "position": "271",
+        "description": "in CMYO2A; dbSNP:rs1553255360"
+      },
+      {
+        "position": "274",
+        "description": "in CMYO2A; dbSNP:rs1553255357"
+      },
+      {
+        "position": "281",
+        "description": "in CMYO2A; dbSNP:rs2102735278"
+      },
+      {
+        "position": "282",
+        "description": "in CMYO2A; dbSNP:rs2102735270"
+      },
+      {
+        "position": "285",
+        "description": "in CMYO2A"
+      },
+      {
+        "position": "288",
+        "description": "in CMYO2A; formation of rod-like structure"
+      },
+      {
+        "position": "294",
+        "description": "in CMYO2C; results in decreased motility due to abnormal interactions between actin and tropomyosin with tropomyosin stabilized in the 'off' position; the mutant protein incorporates into actin filaments and does not result in increased actin aggregation or disruption of the sarcomere; dbSNP:rs121909529"
+      },
+      {
+        "position": "328",
+        "description": "in CMYO2A; no effect on actin structure; higher sensitivity to calcium; dbSNP:rs398122936"
+      },
+      {
+        "position": "334",
+        "description": "in CMYO2C; dbSNP:rs121909531"
+      },
+      {
+        "position": "336",
+        "description": "in CMYO2A; dbSNP:rs121909528"
+      },
+      {
+        "position": "338",
+        "description": "in CMYO2A"
+      },
+      {
+        "position": "338",
+        "description": "in CMYO2A"
+      },
+      {
+        "position": "350",
+        "description": "in CMYO2A; dbSNP:rs2102735031"
+      },
+      {
+        "position": "358",
+        "description": "in CMYO2A; found in a patient with a rare combination of CMYO2A and dilated cardiomyopathy; dbSNP:rs587777354"
+      },
+      {
+        "position": "359",
+        "description": "in CMYO2A; dbSNP:rs121909524"
+      },
+      {
+        "position": "372",
+        "description": "in CMYO2A"
+      },
+      {
+        "position": "374",
+        "description": "in CMYO2A"
+      },
+      {
+        "position": "375",
+        "description": "in CMYO2A; dbSNP:rs1571892209"
+      },
+      {
+        "position": "375",
+        "description": "in CMYO2A"
+      }
+    ],
+    "gene_ontology": [
+      {
+        "go_id": "GO:0015629",
+        "term": "C:actin cytoskeleton",
+        "evidence": "IMP:UniProtKB"
+      },
+      {
+        "go_id": "GO:0005884",
+        "term": "C:actin filament",
+        "evidence": "IDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:0072562",
+        "term": "C:blood microparticle",
+        "evidence": "HDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:0044297",
+        "term": "C:cell body",
+        "evidence": "ISS:AgBase"
+      },
+      {
+        "go_id": "GO:0005829",
+        "term": "C:cytosol",
+        "evidence": "TAS:Reactome"
+      },
+      {
+        "go_id": "GO:0070062",
+        "term": "C:extracellular exosome",
+        "evidence": "HDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:0005615",
+        "term": "C:extracellular space",
+        "evidence": "HDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:0030175",
+        "term": "C:filopodium",
+        "evidence": "ISS:AgBase"
+      },
+      {
+        "go_id": "GO:0030027",
+        "term": "C:lamellipodium",
+        "evidence": "ISS:AgBase"
+      },
+      {
+        "go_id": "GO:0030017",
+        "term": "C:sarcomere",
+        "evidence": "IDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:0001725",
+        "term": "C:stress fiber",
+        "evidence": "IDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:0005865",
+        "term": "C:striated muscle thin filament",
+        "evidence": "IDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:0043531",
+        "term": "F:ADP binding",
+        "evidence": "TAS:UniProtKB"
+      },
+      {
+        "go_id": "GO:0005524",
+        "term": "F:ATP binding",
+        "evidence": "TAS:UniProtKB"
+      },
+      {
+        "go_id": "GO:0016787",
+        "term": "F:hydrolase activity",
+        "evidence": "IEA:UniProtKB-KW"
+      },
+      {
+        "go_id": "GO:0017022",
+        "term": "F:myosin binding",
+        "evidence": "TAS:UniProtKB"
+      },
+      {
+        "go_id": "GO:0005200",
+        "term": "F:structural constituent of cytoskeleton",
+        "evidence": "TAS:UniProtKB"
+      },
+      {
+        "go_id": "GO:0035865",
+        "term": "P:cellular response to potassium ion",
+        "evidence": "IEA:Ensembl"
+      },
+      {
+        "go_id": "GO:0090131",
+        "term": "P:mesenchyme migration",
+        "evidence": "ISS:AgBase"
+      },
+      {
+        "go_id": "GO:0006936",
+        "term": "P:muscle contraction",
+        "evidence": "TAS:UniProtKB"
+      },
+      {
+        "go_id": "GO:0010628",
+        "term": "P:positive regulation of gene expression",
+        "evidence": "ISS:AgBase"
+      },
+      {
+        "go_id": "GO:0009612",
+        "term": "P:response to mechanical stimulus",
+        "evidence": "IEA:Ensembl"
+      },
+      {
+        "go_id": "GO:0048545",
+        "term": "P:response to steroid hormone",
+        "evidence": "IEA:Ensembl"
+      },
+      {
+        "go_id": "GO:0043503",
+        "term": "P:skeletal muscle fiber adaptation",
+        "evidence": "IEA:Ensembl"
+      },
+      {
+        "go_id": "GO:0048741",
+        "term": "P:skeletal muscle fiber development",
+        "evidence": "ISS:UniProtKB"
+      },
+      {
+        "go_id": "GO:0030240",
+        "term": "P:skeletal muscle thin filament assembly",
+        "evidence": "IMP:UniProtKB"
+      }
+    ],
+    "diseases": [
+      {
+        "diseaseId": "Congenital myopathy 2A, typical, autosomal dominant",
+        "description": "A muscular disorder characterized by generalized muscle weakness, delayed motor milestones, hypotonia, and muscle fiber abnormalities on histologic examination. Histologic findings include abnormal thread- or rod-like structures (nemaline rods), intranuclear rods, clumped filaments, cores, or fiber-type disproportion. The spectrum of clinical phenotypes ranges from severe neonatal presentations to onset of a milder disorder in childhood.",
+        "UniProt classification": "DI-02034"
+      },
+      {
+        "diseaseId": "Congenital myopathy 2B, severe infantile, autosomal recessive",
+        "description": "An autosomal recessive skeletal muscle disorder characterized by severe hypotonia with lack of spontaneous movements and respiratory insufficiency, usually leading to death in infancy or early childhood. Longer survival has been reported.",
+        "UniProt classification": "DI-06621"
+      },
+      {
+        "diseaseId": "Congenital myopathy 2C, severe infantile, autosomal dominant",
+        "description": "An autosomal dominant skeletal muscle disorder characterized by severe congenital weakness usually resulting in death from respiratory failure in the first year or so of life. Patients present at birth with hypotonia, lack of antigravity movements, poor head control, and difficulties feeding or breathing, often requiring tube-feeding and mechanical ventilation. Decreased fetal movements may be observed in some cases.",
+        "UniProt classification": "DI-06622"
+      },
+      {
+        "diseaseId": "Myopathy, scapulohumeroperoneal",
+        "description": "An autosomal dominant muscular disorder characterized by progressive muscle weakness with initial scapulo-humeral-peroneal and distal distribution. Over time, muscle weakness progresses to proximal muscle groups. Clinical characteristics include scapular winging, mild lower facial weakness, foot drop due to foot eversion and dorsiflexion weakness, and selective muscle atrophy. Age at onset and disease progression are variable.",
+        "UniProt classification": "DI-04672"
+      }
+    ],
+    "families_domains": {
+      "families": [
+        {
+          "id": "PF00022",
+          "name": "Actin",
+          "database": "Pfam"
+        },
+        {
+          "id": "SSF53067",
+          "name": "Actin-like ATPase domain",
+          "database": "SUPFAM"
+        }
+      ],
+      "domains": [
+        {
+          "id": "3.30.420.40",
+          "name": "-",
+          "database": "Gene3D"
+        },
+        {
+          "id": "3.90.640.10",
+          "name": "Actin, Chain A, domain 4",
+          "database": "Gene3D"
+        }
+      ]
+    },
+    "sequence_isoforms": {
+      "canonical": "MCDEDETTALVCDNGSGLVKAGFAGDDAPRAVFPSIVGRPRHQGVMVGMGQKDSYVGDEAQSKRGILTLKYPIEHGIITNWDDMEKIWHHTFYNELRVAPEEHPTLLTEAPLNPKANREKMTQIMFETFNVPAMYVAIQAVLSLYASGRTTGIVLDSGDGVTHNVPIYEGYALPHAIMRLDLAGRDLTDYLMKILTERGYSFVTTAEREIVRDIKEKLCYVALDFENEMATAASSSSLEKSYELPDGQVITIGNERFRCPETLFQPSFIGMESAGIHETTYNSIMKCDIDIRKDLYANNVMSGGTTMYPGIADRMQKEITALAPSTMKIKIIAPPERKYSVWIGGSILASLSTFQQMWITKQEYDEAGPSIVHRKCF",
+      "isoforms": []
+    },
+    "regions": [
+      {
+        "description": "Interaction with alpha-actinin",
+        "start": {
+          "value": 112,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 125,
+          "modifier": "EXACT"
+        }
+      },
+      {
+        "description": "Interaction with alpha-actinin",
+        "start": {
+          "value": 360,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 372,
+          "modifier": "EXACT"
+        }
+      }
+    ]
+  },
+  "P84243": {
+    "protein_name": "Histone H3.3",
+    "accessions": {
+      "primary": "P84243",
+      "secondary": [
+        "P06351",
+        "P33155",
+        "Q5VV55",
+        "Q5VV56",
+        "Q66I33",
+        "Q9V3W4"
+      ]
+    },
+    "gene": "H3-3A",
+    "status": "UniProtKB reviewed (Swiss-Prot)",
+    "organism": "Homo sapiens",
+    "variant_ids": [
+      {
+        "position": "8",
+        "description": "in BRYLIB2; uncertain significance; no effect on protein abundance"
+      },
+      {
+        "position": "9",
+        "description": "in BRYLIB2"
+      },
+      {
+        "position": "9",
+        "description": "in BRYLIB1"
+      },
+      {
+        "position": "9",
+        "description": "in BRYLIB1"
+      },
+      {
+        "position": "10",
+        "description": "in BRYLIB2; uncertain significance; no effect on protein abundance"
+      },
+      {
+        "position": "11",
+        "description": "in BRYLIB2; uncertain significance"
+      },
+      {
+        "position": "14",
+        "description": "in BRYLIB2; uncertain significance"
+      },
+      {
+        "position": "16",
+        "description": "in BRYLIB1; uncertain significance"
+      },
+      {
+        "position": "18",
+        "description": "in BRYLIB1"
+      },
+      {
+        "position": "23",
+        "description": "in BRYLIB1; uncertain significance"
+      },
+      {
+        "position": "23",
+        "description": "in BRYLIB2; uncertain significance; no effect on protein abundance"
+      },
+      {
+        "position": "28",
+        "description": "in GLM; glioblastoma multiforme samples and diffuse intrinsic pontine glioma; somatic mutation; more prevalent in pediatric than adult malignancies; results in reduced allosteric activation of PRC2 causing a global decrease of H3K27me3 levels; has no effect on H3K4me3 or H3K36me3 levels; dbSNP:rs1057519903"
+      },
+      {
+        "position": "30",
+        "description": "in BRYLIB2; uncertain significance"
+      },
+      {
+        "position": "30",
+        "description": "in BRYLIB1; uncertain significance"
+      },
+      {
+        "position": "32",
+        "description": "in BRYLIB1; uncertain significance"
+      },
+      {
+        "position": "35",
+        "description": "in GLM; glioblastoma multiforme samples; somatic mutation; also found in osteosarcoma samples; results in global decrease of H3K36me2 and H3K36me3 levels; has no effect on H3K27me3 levels; dbSNP:rs1553260624"
+      },
+      {
+        "position": "35",
+        "description": "in GLM and BRYLIB2; glioblastoma multiforme samples; somatic mutation; affects regulation of gene expression and results in up-regulation of MYCN; results in global decrease of H3K36me2 and H3K36me3 levels; has no effect on H3K27me3 levels"
+      },
+      {
+        "position": "35",
+        "description": "found in giant cell tumors of bone; uncertain significance; somatic mutation"
+      },
+      {
+        "position": "37",
+        "description": "in BRYLIB1"
+      },
+      {
+        "position": "37",
+        "description": "found in chondroblastoma and clear cell chondrosarcoma; uncertain significance; somatic mutation; also found in a subset of human papillomavirus-negative head and neck squamous cell carcinomas; uncertain significance; results in global decrease of H3K36me2 and H3K36me3 levels and increased H3K27me3 levels"
+      },
+      {
+        "position": "40",
+        "description": "in BRYLIB2; uncertain significance"
+      },
+      {
+        "position": "40",
+        "description": "in BRYLIB1; uncertain significance"
+      },
+      {
+        "position": "41",
+        "description": "in BRYLIB1; uncertain significance; increased protein abundance"
+      },
+      {
+        "position": "46",
+        "description": "in BRYLIB1"
+      },
+      {
+        "position": "49",
+        "description": "in BRYLIB2; uncertain significance"
+      },
+      {
+        "position": "52",
+        "description": "in BRYLIB2; uncertain significance; decreased protein abundance"
+      },
+      {
+        "position": "56",
+        "description": "in BRYLIB1; uncertain significance; no effect on protein abundance"
+      },
+      {
+        "position": "62",
+        "description": "in BRYLIB1; uncertain significance"
+      },
+      {
+        "position": "78",
+        "description": "in BRYLIB1; uncertain significance"
+      },
+      {
+        "position": "82",
+        "description": "in BRYLIB1; uncertain significance"
+      },
+      {
+        "position": "84",
+        "description": "in BRYLIB1"
+      },
+      {
+        "position": "91",
+        "description": "in BRYLIB1"
+      },
+      {
+        "position": "109",
+        "description": "in BRYLIB1 and BRYLIB2; uncertain significance"
+      },
+      {
+        "position": "113",
+        "description": "in BRYLIB1; uncertain significance"
+      },
+      {
+        "position": "113",
+        "description": "in BRYLIB1; uncertain significance"
+      },
+      {
+        "position": "118",
+        "description": "in BRYLIB1; uncertain significance"
+      },
+      {
+        "position": "121",
+        "description": "in BRYLIB1; decreased protein abundance"
+      },
+      {
+        "position": "121",
+        "description": "in BRYLIB1"
+      },
+      {
+        "position": "121",
+        "description": "in BRYLIB2"
+      },
+      {
+        "position": "122",
+        "description": "in BRYLIB1"
+      },
+      {
+        "position": "122",
+        "description": "in BRYLIB1 and BRYLIB2"
+      },
+      {
+        "position": "126",
+        "description": "in BRYLIB1 and BRYLIB2"
+      },
+      {
+        "position": "129",
+        "description": "in BRYLIB1; uncertain significance"
+      },
+      {
+        "position": "129",
+        "description": "in BRYLIB1; uncertain significance; decreased protein abundance; increased interaction with DAXX; not changed subcellular location"
+      }
+    ],
+    "gene_ontology": [
+      {
+        "go_id": "GO:0001740",
+        "term": "C:Barr body",
+        "evidence": "IEA:Ensembl"
+      },
+      {
+        "go_id": "GO:0000781",
+        "term": "C:chromosome, telomeric region",
+        "evidence": "IDA:BHF-UCL"
+      },
+      {
+        "go_id": "GO:0070062",
+        "term": "C:extracellular exosome",
+        "evidence": "HDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:0005576",
+        "term": "C:extracellular region",
+        "evidence": "TAS:Reactome"
+      },
+      {
+        "go_id": "GO:0000939",
+        "term": "C:inner kinetochore",
+        "evidence": "IEA:Ensembl"
+      },
+      {
+        "go_id": "GO:0005654",
+        "term": "C:nucleoplasm",
+        "evidence": "IDA:HPA"
+      },
+      {
+        "go_id": "GO:0000786",
+        "term": "C:nucleosome",
+        "evidence": "IDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:0005634",
+        "term": "C:nucleus",
+        "evidence": "IDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:0032991",
+        "term": "C:protein-containing complex",
+        "evidence": "IDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:0031492",
+        "term": "F:nucleosomal DNA binding",
+        "evidence": "IDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:0046982",
+        "term": "F:protein heterodimerization activity",
+        "evidence": "IEA:InterPro"
+      },
+      {
+        "go_id": "GO:0000978",
+        "term": "F:RNA polymerase II cis-regulatory region sequence-specific DNA binding",
+        "evidence": "IDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:0000979",
+        "term": "F:RNA polymerase II core promoter sequence-specific DNA binding",
+        "evidence": "IDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:0030527",
+        "term": "F:structural constituent of chromatin",
+        "evidence": "IDA:GO_Central"
+      },
+      {
+        "go_id": "GO:0008283",
+        "term": "P:cell population proliferation",
+        "evidence": "IEA:Ensembl"
+      },
+      {
+        "go_id": "GO:0007566",
+        "term": "P:embryo implantation",
+        "evidence": "IEA:Ensembl"
+      },
+      {
+        "go_id": "GO:0008584",
+        "term": "P:male gonad development",
+        "evidence": "IEA:Ensembl"
+      },
+      {
+        "go_id": "GO:0035264",
+        "term": "P:multicellular organism growth",
+        "evidence": "IEA:Ensembl"
+      },
+      {
+        "go_id": "GO:0042692",
+        "term": "P:muscle cell differentiation",
+        "evidence": "IEA:Ensembl"
+      },
+      {
+        "go_id": "GO:1902340",
+        "term": "P:negative regulation of chromosome condensation",
+        "evidence": "IEA:Ensembl"
+      },
+      {
+        "go_id": "GO:0006334",
+        "term": "P:nucleosome assembly",
+        "evidence": "IDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:0006997",
+        "term": "P:nucleus organization",
+        "evidence": "IEA:Ensembl"
+      },
+      {
+        "go_id": "GO:0001556",
+        "term": "P:oocyte maturation",
+        "evidence": "IEA:Ensembl"
+      },
+      {
+        "go_id": "GO:0001649",
+        "term": "P:osteoblast differentiation",
+        "evidence": "IEA:Ensembl"
+      },
+      {
+        "go_id": "GO:0031508",
+        "term": "P:pericentric heterochromatin formation",
+        "evidence": "IEA:Ensembl"
+      },
+      {
+        "go_id": "GO:0030307",
+        "term": "P:positive regulation of cell growth",
+        "evidence": "IMP:UniProtKB"
+      },
+      {
+        "go_id": "GO:0090230",
+        "term": "P:regulation of centromere complex assembly",
+        "evidence": "IEA:Ensembl"
+      },
+      {
+        "go_id": "GO:0007338",
+        "term": "P:single fertilization",
+        "evidence": "IEA:Ensembl"
+      },
+      {
+        "go_id": "GO:0007286",
+        "term": "P:spermatid development",
+        "evidence": "IEA:Ensembl"
+      },
+      {
+        "go_id": "GO:0031509",
+        "term": "P:subtelomeric heterochromatin formation",
+        "evidence": "IEA:Ensembl"
+      },
+      {
+        "go_id": "GO:0032200",
+        "term": "P:telomere organization",
+        "evidence": "TAS:BHF-UCL"
+      }
+    ],
+    "diseases": [
+      {
+        "diseaseId": "Glioma",
+        "description": "Gliomas are benign or malignant central nervous system neoplasms derived from glial cells. They comprise astrocytomas and glioblastoma multiforme that are derived from astrocytes, oligodendrogliomas derived from oligodendrocytes and ependymomas derived from ependymocytes.",
+        "UniProt classification": "DI-02566"
+      },
+      {
+        "diseaseId": "Bryant-Li-Bhoj neurodevelopmental syndrome 1",
+        "description": "An autosomal dominant disorder predominantly characterized by global developmental delay, impaired intellectual development, poor or absent speech, and delayed motor milestones. Clinical manifestations are highly variable, including abnormal head shape, dysmorphic facial features, oculomotor abnormalities, feeding problems, and non-specific brain imaging abnormalities. Additional features may include hearing loss, seizures, short stature, and mild skeletal defects.",
+        "UniProt classification": "DI-06327"
+      },
+      {
+        "diseaseId": "Bryant-Li-Bhoj neurodevelopmental syndrome 2",
+        "description": "An autosomal dominant disorder predominantly characterized by global developmental delay, impaired intellectual development, poor or absent speech, and delayed motor milestones. Clinical manifestations are highly variable, including abnormal head shape, dysmorphic facial features, oculomotor abnormalities, feeding problems, and non-specific brain imaging abnormalities. Additional features may include hearing loss, seizures, short stature, and mild skeletal defects.",
+        "UniProt classification": "DI-06328"
+      },
+      {
+        "diseaseId": "",
+        "description": "",
+        "UniProt classification": ""
+      }
+    ],
+    "families_domains": {
+      "families": [
+        {
+          "id": "PF00125",
+          "name": "Histone",
+          "database": "Pfam"
+        },
+        {
+          "id": "SSF47113",
+          "name": "Histone-fold",
+          "database": "SUPFAM"
+        }
+      ],
+      "domains": [
+        {
+          "id": "1.10.20.10",
+          "name": "Histone, subunit A",
+          "database": "Gene3D"
+        }
+      ]
+    },
+    "sequence_isoforms": {
+      "canonical": "MARTKQTARKSTGGKAPRKQLATKAARKSAPSTGGVKKPHRYRPGTVALREIRRYQKSTELLIRKLPFQRLVREIAQDFKTDLRFQSAAIGALQEASEAYLVGLFEDTNLCAIHAKRVTIMPKDIQLARRIRGERA",
+      "isoforms": []
+    },
+    "regions": [
+      {
+        "description": "Disordered",
+        "start": {
+          "value": 1,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 43,
+          "modifier": "EXACT"
+        }
+      }
+    ]
+  },
+  "Q15366": {
+    "protein_name": "Poly(rC)-binding protein 2",
+    "accessions": {
+      "primary": "Q15366",
+      "secondary": [
+        "A8K7X6",
+        "B4DXP5",
+        "F8VYL7",
+        "G3V0E8",
+        "I6L8F9",
+        "Q32Q82",
+        "Q59HD4",
+        "Q68Y55",
+        "Q6IPF4",
+        "Q6PKG5"
+      ]
+    },
+    "gene": "PCBP2",
+    "status": "UniProtKB reviewed (Swiss-Prot)",
+    "organism": "Homo sapiens",
+    "variant_ids": [],
+    "gene_ontology": [
+      {
+        "go_id": "GO:0005737",
+        "term": "C:cytoplasm",
+        "evidence": "IDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:0005829",
+        "term": "C:cytosol",
+        "evidence": "IDA:HPA"
+      },
+      {
+        "go_id": "GO:0070062",
+        "term": "C:extracellular exosome",
+        "evidence": "HDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:0005925",
+        "term": "C:focal adhesion",
+        "evidence": "HDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:0016020",
+        "term": "C:membrane",
+        "evidence": "HDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:0005654",
+        "term": "C:nucleoplasm",
+        "evidence": "IDA:HPA"
+      },
+      {
+        "go_id": "GO:0005634",
+        "term": "C:nucleus",
+        "evidence": "IDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:0014069",
+        "term": "C:postsynaptic density",
+        "evidence": "IEA:Ensembl"
+      },
+      {
+        "go_id": "GO:1990904",
+        "term": "C:ribonucleoprotein complex",
+        "evidence": "IEA:UniProtKB-KW"
+      },
+      {
+        "go_id": "GO:0019899",
+        "term": "F:enzyme binding",
+        "evidence": "IPI:UniProtKB"
+      },
+      {
+        "go_id": "GO:0106222",
+        "term": "F:lncRNA binding",
+        "evidence": "IDA:FlyBase"
+      },
+      {
+        "go_id": "GO:0003729",
+        "term": "F:mRNA binding",
+        "evidence": "IBA:GO_Central"
+      },
+      {
+        "go_id": "GO:0140585",
+        "term": "F:promoter-enhancer loop anchoring activity",
+        "evidence": "IMP:FlyBase"
+      },
+      {
+        "go_id": "GO:0003723",
+        "term": "F:RNA binding",
+        "evidence": "IDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:0003697",
+        "term": "F:single-stranded DNA binding",
+        "evidence": "IBA:GO_Central"
+      },
+      {
+        "go_id": "GO:0031625",
+        "term": "F:ubiquitin protein ligase binding",
+        "evidence": "IPI:UniProtKB"
+      },
+      {
+        "go_id": "GO:0140588",
+        "term": "P:chromatin looping",
+        "evidence": "IMP:FlyBase"
+      },
+      {
+        "go_id": "GO:0051607",
+        "term": "P:defense response to virus",
+        "evidence": "IEA:UniProtKB-KW"
+      },
+      {
+        "go_id": "GO:0045087",
+        "term": "P:innate immune response",
+        "evidence": "IEA:UniProtKB-KW"
+      },
+      {
+        "go_id": "GO:0075522",
+        "term": "P:IRES-dependent viral translational initiation",
+        "evidence": "IDA:UniProtKB"
+      },
+      {
+        "go_id": "GO:0016071",
+        "term": "P:mRNA metabolic process",
+        "evidence": "NAS:UniProtKB"
+      },
+      {
+        "go_id": "GO:0160049",
+        "term": "P:negative regulation of cGAS/STING signaling pathway",
+        "evidence": "IDA:UniProt"
+      },
+      {
+        "go_id": "GO:0050687",
+        "term": "P:negative regulation of defense response to virus",
+        "evidence": "IMP:UniProtKB"
+      },
+      {
+        "go_id": "GO:0043161",
+        "term": "P:proteasome-mediated ubiquitin-dependent protein catabolic process",
+        "evidence": "IMP:UniProtKB"
+      },
+      {
+        "go_id": "GO:0006357",
+        "term": "P:regulation of transcription by RNA polymerase II",
+        "evidence": "IBA:GO_Central"
+      },
+      {
+        "go_id": "GO:0039694",
+        "term": "P:viral RNA genome replication",
+        "evidence": "IDA:UniProtKB"
+      }
+    ],
+    "diseases": [],
+    "families_domains": {
+      "families": [
+        {
+          "id": "PF00013",
+          "name": "KH_1",
+          "database": "Pfam"
+        },
+        {
+          "id": "SSF54791",
+          "name": "Eukaryotic type KH-domain (KH-domain type I)",
+          "database": "SUPFAM"
+        }
+      ],
+      "domains": [
+        {
+          "id": "3.30.1370.10",
+          "name": "K Homology domain, type 1",
+          "database": "Gene3D"
+        },
+        {
+          "type": "Domain",
+          "description": "KH 1",
+          "start": 13,
+          "end": 75
+        },
+        {
+          "type": "Domain",
+          "description": "KH 2",
+          "start": 97,
+          "end": 162
+        },
+        {
+          "type": "Domain",
+          "description": "KH 3",
+          "start": 287,
+          "end": 351
+        }
+      ]
+    },
+    "sequence_isoforms": {
+      "canonical": "MDTGVIEGGLNVTLTIRLLMHGKEVGSIIGKKGESVKKMREESGARINISEGNCPERIITLAGPTNAIFKAFAMIIDKLEEDISSSMTNSTAASRPPVTLRLVVPASQCGSLIGKGGCKIKEIRESTGAQVQVAGDMLPNSTERAITIAGIPQSIIECVKQICVVMLETLSQSPPKGVTIPYRPKPSSSPVIFAGGQDRYSTGSDSASFPHTTPSMCLNPDLEGPPLEAYTIQGQYAIPQPDLTKLHQLAMQQSHFPMTHGNTGFSGIESSSPEVKGYWGLDASAQTTSHELTIPNDLIGCIIGRQGAKINEIRQMSGAQIKIANPVEGSTDRQVTITGSAASISLAQYLINVRLSSETGGMGSS",
+      "isoforms": [
+        {
+          "name": "1",
+          "id": "Q15366-1",
+          "status": "Displayed"
+        },
+        {
+          "name": "2",
+          "id": "Q15366-2",
+          "status": "Described"
+        },
+        {
+          "name": "3",
+          "id": "Q15366-3",
+          "status": "Described"
+        },
+        {
+          "name": "4",
+          "id": "Q15366-4",
+          "status": "Described"
+        },
+        {
+          "name": "5",
+          "id": "Q15366-5",
+          "status": "Described"
+        },
+        {
+          "name": "6",
+          "id": "Q15366-6",
+          "status": "Described"
+        },
+        {
+          "name": "7",
+          "id": "Q15366-7",
+          "status": "Described"
+        },
+        {
+          "name": "8",
+          "id": "Q15366-8",
+          "status": "Described"
+        }
+      ]
+    },
+    "regions": []
+  }
+}

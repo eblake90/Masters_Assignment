@@ -7,8 +7,8 @@ This repository contains the implementation of five bioinformatics tasks for the
 Create and activate the conda environment using the provided environment file:
 
 ```bash
-git clone git@github.com:eblake90/MMB5009_Assignment.git
-cd MMB5009_Assignment_Edward
+git clone git@github.com:eblake90/MMB5009_Assignment_Edward-Blake.git
+cd MMB5009_Assignment_Edward-Blake/
 conda env create -f mmb5009_conda_env.yml
 conda activate mmb5009_edward
 ```
@@ -109,6 +109,11 @@ python methylation_analysis.py \
 
 Retrieves comprehensive protein annotations from UniProt for methylation candidate proteins.
 
+<h3 align="center">Flowchart of Task 2</h3>
+<p align="center">
+  <img src="2_Protein_Dataset_Generation/accession_extraction_flowchart.png" alt="Flowchart showing the accession extraction pipeline." width="500">
+</p>
+
 ### Prerequisites
 - Requires completion of Task 1 (uses `methylation_results_significant.csv`)
 
@@ -134,7 +139,7 @@ cd 2_Protein_Dataset_Generation/
 
 # Step 1: Extract protein accessions from Task 1 results
 python 1_extract_accessions.py \
-  --input_file ../data/1_Proteomics_Methylation_Analysis/methylation_results_significant.csv \
+  --input_file ../1_Proteomics_Methylation_Analysis/data/methylation_results_significant.csv \
   --output_file data/1_accessions_input.csv
 
 # Step 2: Download protein data from UniProt
@@ -146,7 +151,7 @@ python 2_protein_accessions_downloader.py \
 ### Parameters (all optional with defaults):
 
 #### 1_extract_accessions.py:
-- `--input_file`: Input CSV file with methylation data (default: `data/methylation_results_significant.csv`)
+- `--input_file`: Input CSV file with methylation data (default: `../1_Proteomics_Methylation_Analysis/data/methylation_results_significant.csv`)
 - `--output_file`: Output CSV file for accessions (default: `data/1_accessions_input.csv`)
 
 #### 2_protein_accessions_downloader.py:
