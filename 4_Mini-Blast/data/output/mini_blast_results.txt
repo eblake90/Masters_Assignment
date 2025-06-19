@@ -1,0 +1,50 @@
+Mini-BLAST Results
+
+Query sequence length: 177
+
+Ranked results:
+
+Rank 1: >P
+  Score: 476
+  E-value: 9.07e-63
+  Query: 82  MESSIEEQFCRLNEYNQLQLQAAHAQEQIRRMNENSHVQVPFQQLNQLAAYPYAVWYYPQIMQYVPFPPFSDISNPTAHENYEKNNVMLQW 172
+  Match:     + || ||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+  Target: 86 ISSSSEEQFCRLNEYNQLQLQAVHAQEQIRRMNENSHVQVPFQQLNQLAAYPYAVWYYPQIMQYVPFPPFSDISNPTAHENYEKNNVMLQW 176
+  Identity: 87/91 (95.6%)
+  Similarity: 88/91 (96.7%)
+
+Rank 2: >Y
+  Score: 377
+  E-value: 4.05e-49
+  Query: 0  MRLLILTCLVAVALARPKLPLRYPERLQNPSESSEPIPLESREEYMNGMNRQRNILREKQTDEIKDTRNESTQNCVVAESEKMESSIEEQFCRLNEY 96
+  Match:    |+||||||||||||||||||||||| |||||||||||||||||||+||||||| +|||||+||||| |||| +| |+||||| ||||       +  
+  Target: 0 MKLLILTCLVAVALARPKLPLRYPELLQNPSESSEPIPLESREEYINGMNRQRKVLREKQSDEIKDARNESIENHVMAESEKTESSISSSSEENSLS 96
+  Identity: 75/97 (77.3%)
+  Similarity: 82/97 (84.5%)
+
+Rank 3: >L
+  Score: 369
+  E-value: 5.29e-48
+  Query: 77  AESEKMESSIEEQFCRLNEYNQLQLQAAHAQEQIRRMNENSHVQVPFQQLNQLAAYPYAVWYYPQIMQYVPFPPFSDISNPTAHEN 162
+  Match:     +  |   |   ||| |+||||||||||||||||| ||+||||||||||||+|||||||||||||||+||+||||||||||||| ||
+  Target: 94 SSEENSLSKSAEQFRRMNEYNQLQLQAAHAQEQIHRMSENSHVQVPFQQLSQLAAYPYAVWYYPQIVQYIPFPPFSDISNPTAPEN 179
+  Identity: 69/86 (80.2%)
+  Similarity: 75/86 (87.2%)
+
+Rank 4: >O
+  Score: 166
+  E-value: 4.79e-20
+  Query: 0  MRLLILTCLVAVALARPKLPLRYPERLQNPSESSEPIPLESREEYMNGMNRQRNILREKQTDEIKDTRNESTQNCVVAESEKMESSIEEQFCRLNEYNQLQLQAA 104
+  Match:    |+| | |||||||||+| ||||+ | +||  +| |||  + ||||+| +|++  +   +  +  |   |+  |    + |   |   +    +|   +  +    
+  Target: 0 MKLFIFTCLVAVALAKPNLPLRHSELIQNEQDSVEPITRKIREEYINELNKRELLTENQSDELKKYIMNDPEQKIASSSSSSEEQLNKYNQLQLEAVHDQEQVPR 104
+  Identity: 36/105 (34.3%)
+  Similarity: 55/105 (52.4%)
+
+Rank 5: >N
+  Score: 21
+  E-value: 5.03e+00
+  Query: 129 LAAYPYAVWYYPQIMQYVPFPP 150
+  Match:     |  ||+   ++           
+  Target: 32 LVVYPWTQRFFDNFGNLSSTSA 53
+  Identity: 3/22 (13.6%)
+  Similarity: 6/22 (27.3%)

@@ -298,6 +298,11 @@ python scripts/5_summary_stats.py \
 
 Implements a simplified BLAST algorithm for protein sequence similarity searching.
 
+<h3 align="center">Flowchart of Task 4</h3>
+<p align="center">
+  <img src="4_Mini-Blast/mini-blast_flowchart.png" alt="Flowchart showing the mini-blast pipeline." width="500">
+</p>
+
 ### Prerequisites
 - Query sequence in `data/input/query.fa`
 - Target sequences in `data/input/target.fa`
@@ -318,7 +323,7 @@ Implements a simplified BLAST algorithm for protein sequence similarity searchin
 
 ```bash
 cd ..
-cd 4_mini-blast/
+cd 4_Mini-Blast/
 python run_mini_blast.py \
   --query_file data/input/query.fa \
   --target_file data/input/target.fa \
@@ -463,6 +468,15 @@ python scripts/6_normalise_expression.py \
 - `6_normalized/` - RPM and RPKM normalized expression values
 
 ---
+
+## Clean up
+
+Remove the MMB5009 assignment conda environment once review is fully complete.
+
+``` bash
+conda deactivate
+conda env remove -n mmb5009_edward
+```
 
 ## Notes
 
