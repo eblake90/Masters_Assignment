@@ -351,6 +351,11 @@ python run_mini_blast.py \
 
 Complete RNA-seq analysis pipeline for human chromosomes 21 and 22.
 
+<h3 align="center">Flowchart of Task 5</h3>
+<p align="center">
+  <img src="5_RNA-Seq_Analysis/RNA-Seq_Flowchart.png" alt="Flowchart showing the RNA-seq pipeline." width="500">
+</p>
+
 ### Prerequisites
 - Active internet connection required for ENCODE FASTQ data, GRCh38 reference genomes (Chr21, Chr22), and Ensembl gene annotations download.
 - Disk space of approximately 5-10 GB for complete pipeline.
@@ -394,14 +399,15 @@ Complete RNA-seq analysis pipeline for human chromosomes 21 and 22.
 
 ```bash
 cd ..
-cd scripts/5_RNA-Seq_Analysis/
+cd 5_RNA-Seq_Analysis/
 chmod +x run_rna_seq_pipeline.sh
-./run_rna_seq_pipeline.sh "data" "https://www.encodeproject.org/files/ENCFF493KQW/@@download/ENCFF493KQW.fastq.gz"
+./run_rna_seq_pipeline.sh "data" "https://www.encodeproject.org/files/ENCFF493KQW/@@download/ENCFF493KQW.fastq.gz" 10
 ```
 
 #### Parameters (all optional with defaults):
 - `$1`: DATA_DIR - Main data directory (default: `data`)
 - `$2`: FASTQ_URL - URL for ENCODE FASTQ download (default: `https://www.encodeproject.org/files/ENCFF493KQW/@@download/ENCFF493KQW.fastq.gz`)
+- `$3`: THREADS - Number of threads used in STAR (default: `10`)
 
 The script automatically creates the following subdirectories within DATA_DIR:
 - `{DATA_DIR}/0_fastq_input/` - Downloaded FASTQ files
