@@ -1,0 +1,9 @@
+algorithm,success_rate,avg_execution_time,time_std_error,median_execution_time,speedup_ratio,total_motifs
+naive,100.0%,3.510083,0.046622,3.391000,1.000,60
+boyer_moore,96.7%,1.270267,0.046932,1.186000,2.763,60
+pigeon_hole_mm0,100.0%,1.922317,0.100128,1.713000,1.826,60
+pigeon_hole_mm1,100.0%,3.671967,0.125290,3.571000,0.956,60
+pigeon_hole_mm2,100.0%,6.118600,0.163383,5.968500,0.574,60
+pigeon_hole_mm3,100.0%,8.878383,0.345785,8.151500,0.395,60
+pigeon_hole_mm4,100.0%,11.618417,0.457480,10.191000,0.302,60
+pigeon_hole_mm5,100.0%,16.511633,0.989390,12.115500,0.213,60
