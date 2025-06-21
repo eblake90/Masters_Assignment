@@ -358,7 +358,6 @@ Complete RNA-seq analysis pipeline for human chromosomes 21 and 22.
 
 ### Prerequisites
 - Active internet connection required for ENCODE FASTQ data, GRCh38 reference genomes (Chr21, Chr22), and Ensembl gene annotations download.
-- Disk space of approximately 5-10 GB for complete pipeline.
 
 ### Directory Structure
 ```
