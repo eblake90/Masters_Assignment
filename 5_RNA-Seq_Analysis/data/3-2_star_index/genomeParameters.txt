@@ -1,0 +1,19 @@
+### /home/eddy/miniconda3/envs/mmb5009_edward/bin/STAR-avx2   --runMode genomeGenerate      --runThreadN 10   --genomeDir data/3-2_star_index   --genomeFastaFiles data/3-1_reference/chr21_22_combined.fa      --genomeSAindexNbases 12
+### GstrandBit 32
+versionGenome	2.7.4a
+genomeType	Full
+genomeFastaFiles	data/3-1_reference/chr21_22_combined.fa 
+genomeSAindexNbases	12
+genomeChrBinNbits	18
+genomeSAsparseD	1
+genomeTransformType	None
+genomeTransformVCF	-
+sjdbOverhang	0
+sjdbFileChrStartEnd	- 
+sjdbGTFfile	-
+sjdbGTFchrPrefix	-
+sjdbGTFfeatureExon	exon
+sjdbGTFtagExonParentTranscript	transcript_id
+sjdbGTFtagExonParentGene	gene_id
+sjdbInsertSave	Basic
+genomeFileSizes	97779712 653799270

@@ -1,0 +1,15 @@
+/5_RNA-Seq_Analysis/data/0_fastq_input/ENCFF493KQW.fastq
+/5_RNA-Seq_Analysis/data/1_fastqc_results/ENCFF493KQW_fastqc.zip
+/5_RNA-Seq_Analysis/data/2_trimmed/ENCFF493KQW_trimmed.fastq
+/5_RNA-Seq_Analysis/data/3-1_reference/chr21_22_combined.fa
+/5_RNA-Seq_Analysis/data/3-1_reference/Homo_sapiens.GRCh38.dna.chromosome.21.fa
+/5_RNA-Seq_Analysis/data/3-1_reference/Homo_sapiens.GRCh38.dna.chromosome.22.fa
+/5_RNA-Seq_Analysis/data/3-2_star_index/Genome
+/5_RNA-Seq_Analysis/data/3-2_star_index/SA
+/5_RNA-Seq_Analysis/data/3-2_star_index/SAindex
+/5_RNA-Seq_Analysis/data/3-3_aligned/chr21_22_SJ.out.tab
+/5_RNA-Seq_Analysis/data/3-3_aligned/chr21_22_Aligned.out.sam
+/5_RNA-Seq_Analysis/data/4_annotations/chr21_22_annotation.gtf
+/5_RNA-Seq_Analysis/data/4_annotations/Homo_sapiens.GRCh38.114.gtf.gz
+/5_RNA-Seq_Analysis/data/5_coverage/gene_coverage.txt
+/5_RNA-Seq_Analysis/data/5_coverage/.Rhistory

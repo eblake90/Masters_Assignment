@@ -219,7 +219,7 @@ chmod +x run_matching_algorithms.sh
   data \
   42 \
   "15,50,120" \
-  2 \
+  20 \
   5
 ```
 
@@ -432,12 +432,12 @@ python scripts/0_fastq_downloader.py \
 
 # Step 1: Quality control
 bash scripts/1_QC.sh \
-  "data/ENCFF493KQW.fastq" \
+  "data/0_fastq_input/ENCFF493KQW.fastq" \
   "data/1_fastqc_results"
 
 # Step 2: Adapter trimming
 bash scripts/2_adapter_trimming.sh \
-  "data/ENCFF493KQW.fastq" \
+  "data/0_fastq_input/ENCFF493KQW.fastq" \
   "data/2_trimmed" \
   "$CONDA_PREFIX/share/trimmomatic-0.39-2/adapters/TruSeq3-SE.fa"
 

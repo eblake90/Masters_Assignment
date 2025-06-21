@@ -1,0 +1,105 @@
+STAR version=2.7.11b
+STAR compilation time,server,dir=2025-04-26T21:36:55+0000 :/opt/conda/conda-bld/star_1745703265435/work/source
+##### Command Line:
+/home/eddy/miniconda3/envs/mmb5009_edward/bin/STAR-avx2 --runMode alignReads --runThreadN 10 --genomeDir data/3-2_star_index --readFilesIn data/2_trimmed/ENCFF493KQW_trimmed.fastq --outFileNamePrefix data/3-3_aligned/chr21_22_
+##### Initial USER parameters from Command Line:
+outFileNamePrefix                 data/3-3_aligned/chr21_22_
+###### All USER parameters from Command Line:
+runMode                       alignReads        ~RE-DEFINED
+runThreadN                    10     ~RE-DEFINED
+genomeDir                     data/3-2_star_index     ~RE-DEFINED
+readFilesIn                   data/2_trimmed/ENCFF493KQW_trimmed.fastq        ~RE-DEFINED
+outFileNamePrefix             data/3-3_aligned/chr21_22_     ~RE-DEFINED
+##### Finished reading parameters from all sources
+
+##### Final user re-defined parameters-----------------:
+runMode                           alignReads   
+runThreadN                        10
+genomeDir                         data/3-2_star_index
+readFilesIn                       data/2_trimmed/ENCFF493KQW_trimmed.fastq   
+outFileNamePrefix                 data/3-3_aligned/chr21_22_
+
+-------------------------------
+##### Final effective command line:
+/home/eddy/miniconda3/envs/mmb5009_edward/bin/STAR-avx2   --runMode alignReads      --runThreadN 10   --genomeDir data/3-2_star_index   --readFilesIn data/2_trimmed/ENCFF493KQW_trimmed.fastq      --outFileNamePrefix data/3-3_aligned/chr21_22_
+----------------------------------------
+
+Number of fastq files for each mate = 1
+ParametersSolo: --soloCellFilterType CellRanger2.2 filtering parameters:  3000 0.99 10
+Finished loading and checking parameters
+Reading genome generation parameters:
+### /home/eddy/miniconda3/envs/mmb5009_edward/bin/STAR-avx2   --runMode genomeGenerate      --runThreadN 10   --genomeDir data/3-2_star_index   --genomeFastaFiles data/3-1_reference/chr21_22_combined.fa      --genomeSAindexNbases 12
+### GstrandBit=32
+versionGenome                 2.7.4a     ~RE-DEFINED
+genomeType                    Full     ~RE-DEFINED
+genomeFastaFiles              data/3-1_reference/chr21_22_combined.fa        ~RE-DEFINED
+genomeSAindexNbases           12     ~RE-DEFINED
+genomeChrBinNbits             18     ~RE-DEFINED
+genomeSAsparseD               1     ~RE-DEFINED
+genomeTransformType           None     ~RE-DEFINED
+genomeTransformVCF            -     ~RE-DEFINED
+sjdbOverhang                  0     ~RE-DEFINED
+sjdbFileChrStartEnd           -        ~RE-DEFINED
+sjdbGTFfile                   -     ~RE-DEFINED
+sjdbGTFchrPrefix              -     ~RE-DEFINED
+sjdbGTFfeatureExon            exon     ~RE-DEFINED
+sjdbGTFtagExonParentTranscripttranscript_id     ~RE-DEFINED
+sjdbGTFtagExonParentGene      gene_id     ~RE-DEFINED
+sjdbInsertSave                Basic     ~RE-DEFINED
+genomeFileSizes               97779712   653799270        ~RE-DEFINED
+Genome version is compatible with current STAR
+Number of real (reference) chromosomes= 2
+1	21	46709983	0
+2	22	50818468	46923776
+Started loading the genome: Sat Jun 21 13:11:27 2025
+
+Genome: size given as a parameter = 97779712
+SA: size given as a parameter = 653799270
+SAindex: size given as a parameter = 1
+Read from SAindex: pGe.gSAindexNbases=12  nSAi=22369620
+nGenome=97779712;  nSAbyte=653799270
+GstrandBit=32   SA number of indices=158496792
+Shared memory is not used for genomes. Allocated a private copy of the genome.
+Genome file size: 97779712 bytes; state: good=1 eof=0 fail=0 bad=0
+Loading Genome ... done! state: good=1 eof=0 fail=0 bad=0; loaded 97779712 bytes
+SA file size: 653799270 bytes; state: good=1 eof=0 fail=0 bad=0
+Loading SA ... done! state: good=1 eof=0 fail=0 bad=0; loaded 653799270 bytes
+Loading SAindex ... done: 97867203 bytes
+Finished loading the genome: Sat Jun 21 13:11:28 2025
+
+alignIntronMax=alignMatesGapMax=0, the max intron size will be approximately determined by (2^winBinNbits)*winAnchorDistNbins=589824
+Created thread # 1
+Created thread # 2
+Created thread # 3
+Created thread # 4
+Created thread # 5
+Created thread # 6
+Created thread # 7
+Created thread # 8
+Created thread # 9
+Thread #1 end of input stream, nextChar=-1
+Completed: thread #8
+Completed: thread #6
+Completed: thread #9
+Completed: thread #4
+Completed: thread #3
+Completed: thread #0
+Completed: thread #5
+Completed: thread #2
+Completed: thread #1
+Joined thread # 1
+Joined thread # 2
+Joined thread # 3
+Joined thread # 4
+Joined thread # 5
+Joined thread # 6
+Completed: thread #7
+Joined thread # 7
+Joined thread # 8
+Joined thread # 9
+Jun 21 14:14:18 ..... finished mapping
+RAM after mapping:
+VmPeak:	 3075716 kB; VmSize:	 2974560 kB; VmHWM:	 2361348 kB; VmRSS:	 2355464 kB; 
+RAM after freeing genome index memory:
+VmPeak:	 3075716 kB; VmSize:	 2145016 kB; VmHWM:	 2361348 kB; VmRSS:	 1526164 kB; 
+ALL DONE!

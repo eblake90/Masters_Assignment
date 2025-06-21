@@ -1,0 +1,68 @@
+STAR version=2.7.11b
+STAR compilation time,server,dir=2025-04-26T21:36:55+0000 :/opt/conda/conda-bld/star_1745703265435/work/source
+##### Command Line:
+/home/eddy/miniconda3/envs/mmb5009_edward/bin/STAR-avx2 --runMode genomeGenerate --runThreadN 10 --genomeDir data/3-2_star_index --genomeSAindexNbases 12 --genomeFastaFiles data/3-1_reference/chr21_22_combined.fa
+##### Initial USER parameters from Command Line:
+###### All USER parameters from Command Line:
+runMode                       genomeGenerate        ~RE-DEFINED
+runThreadN                    10     ~RE-DEFINED
+genomeDir                     data/3-2_star_index     ~RE-DEFINED
+genomeSAindexNbases           12     ~RE-DEFINED
+genomeFastaFiles              data/3-1_reference/chr21_22_combined.fa        ~RE-DEFINED
+##### Finished reading parameters from all sources
+
+##### Final user re-defined parameters-----------------:
+runMode                           genomeGenerate   
+runThreadN                        10
+genomeDir                         data/3-2_star_index
+genomeFastaFiles                  data/3-1_reference/chr21_22_combined.fa   
+genomeSAindexNbases               12
+
+-------------------------------
+##### Final effective command line:
+/home/eddy/miniconda3/envs/mmb5009_edward/bin/STAR-avx2   --runMode genomeGenerate      --runThreadN 10   --genomeDir data/3-2_star_index   --genomeFastaFiles data/3-1_reference/chr21_22_combined.fa      --genomeSAindexNbases 12
+----------------------------------------
+
+Number of fastq files for each mate = 1
+ParametersSolo: --soloCellFilterType CellRanger2.2 filtering parameters:  3000 0.99 10
+Finished loading and checking parameters
+--genomeDir directory exists and will be overwritten: data/3-2_star_index/
+Jun 21 13:10:26 ... starting to generate Genome files
+data/3-1_reference/chr21_22_combined.fa : chr # 0  "21" chrStart: 0
+data/3-1_reference/chr21_22_combined.fa : chr # 1  "22" chrStart: 46923776
+Chromosome sequence lengths: 
+21	46709983
+22	50818468
+Genome sequence total length = 97528451
+Genome size with padding = 97779712
+Estimated genome size with padding and SJs: total=genome+SJ=298779712 = 97779712 + 201000000
+GstrandBit=32
+Number of SA indices: 158496792
+Jun 21 13:10:26 ... starting to sort Suffix Array. This may take a long time...
+Number of chunks: 10;   chunks size limit: 140886032 bytes
+Jun 21 13:10:27 ... sorting Suffix Array chunks and saving them to disk...
+Writing 26459816 bytes into data/3-2_star_index//SA_9 ; empty space on disk = 139729985536 bytes ... done
+Writing 139266416 bytes into data/3-2_star_index//SA_3 ; empty space on disk = 139703422976 bytes ... done
+Writing 138165096 bytes into data/3-2_star_index//SA_5 ; empty space on disk = 139564154880 bytes ... done
+Writing 138984640 bytes into data/3-2_star_index//SA_6 ; empty space on disk = 139428425728 bytes ... done
+Writing 140774168 bytes into data/3-2_star_index//SA_1 ; empty space on disk = 139289411584 bytes ... done
+Writing 135788208 bytes into data/3-2_star_index//SA_2 ; empty space on disk = 139148619776 bytes ... done
+Writing 136293184 bytes into data/3-2_star_index//SA_4 ; empty space on disk = 139012829184 bytes ... done
+Writing 137947080 bytes into data/3-2_star_index//SA_0 ; empty space on disk = 138876534784 bytes ... done
+Writing 136923192 bytes into data/3-2_star_index//SA_8 ; empty space on disk = 138738585600 bytes ... done
+Writing 137372536 bytes into data/3-2_star_index//SA_7 ; empty space on disk = 138601660416 bytes ... done
+Jun 21 13:11:22 ... loading chunks from disk, packing SA...
+Jun 21 13:11:23 ... finished generating suffix array
+Jun 21 13:11:23 ... generating Suffix Array index
+Jun 21 13:11:27 ... completed Suffix Array index
+Jun 21 13:11:27 ... writing Genome to disk ...
+Writing 97779712 bytes into data/3-2_star_index//Genome ; empty space on disk = 139830054912 bytes ... done
+SA size in bytes: 653799270
+Jun 21 13:11:27 ... writing Suffix Array to disk ...
+Writing 653799270 bytes into data/3-2_star_index//SA ; empty space on disk = 140386078720 bytes ... done
+Jun 21 13:11:27 ... writing SAindex to disk
+Writing 8 bytes into data/3-2_star_index//SAindex ; empty space on disk = 139830145024 bytes ... done
+Writing 104 bytes into data/3-2_star_index//SAindex ; empty space on disk = 139830140928 bytes ... done
+Writing 97867091 bytes into data/3-2_star_index//SAindex ; empty space on disk = 139830140928 bytes ... done
+Jun 21 13:11:27 ..... finished successfully
+DONE: Genome generation, EXITING
