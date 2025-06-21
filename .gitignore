@@ -13,3 +13,5 @@
 /5_RNA-Seq_Analysis/data/4_annotations/Homo_sapiens.GRCh38.114.gtf.gz
 /5_RNA-Seq_Analysis/data/5_coverage/gene_coverage.txt
 /5_RNA-Seq_Analysis/data/5_coverage/.Rhistory
+/3_Matching_Algorithms/data/1_dna_sequence_data/GRCh38_chr22.fa
+/3_Matching_Algorithms/data/1_dna_sequence_data/GRCh38_chr22_with_motifs.fa
