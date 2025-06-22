@@ -601,6 +601,11 @@
         "evidence": "IPI:BHF-UCL"
       },
       {
+        "go_id": "GO:0030235",
+        "term": "F:nitric-oxide synthase regulator activity",
+        "evidence": "IDA:BHF-UCL"
+      },
+      {
         "go_id": "GO:0019901",
         "term": "F:protein kinase binding",
         "evidence": "IPI:ARUK-UCL"
@@ -1591,11 +1596,6 @@
         "evidence": "TAS:UniProtKB"
       },
       {
-        "go_id": "GO:0035865",
-        "term": "P:cellular response to potassium ion",
-        "evidence": "IEA:Ensembl"
-      },
-      {
         "go_id": "GO:0090131",
         "term": "P:mesenchyme migration",
         "evidence": "ISS:AgBase"
@@ -1609,21 +1609,6 @@
         "go_id": "GO:0010628",
         "term": "P:positive regulation of gene expression",
         "evidence": "ISS:AgBase"
-      },
-      {
-        "go_id": "GO:0009612",
-        "term": "P:response to mechanical stimulus",
-        "evidence": "IEA:Ensembl"
-      },
-      {
-        "go_id": "GO:0048545",
-        "term": "P:response to steroid hormone",
-        "evidence": "IEA:Ensembl"
-      },
-      {
-        "go_id": "GO:0043503",
-        "term": "P:skeletal muscle fiber adaptation",
-        "evidence": "IEA:Ensembl"
       },
       {
         "go_id": "GO:0048741",
@@ -2181,11 +2166,6 @@
         "go_id": "GO:0005634",
         "term": "C:nucleus",
         "evidence": "IDA:UniProtKB"
-      },
-      {
-        "go_id": "GO:0014069",
-        "term": "C:postsynaptic density",
-        "evidence": "IEA:Ensembl"
       },
       {
         "go_id": "GO:1990904",
