@@ -19,14 +19,19 @@ mkdir -p "$OUTPUT_DIR"
 echo "Starting adapter trimming..."
 
 # Run Trimmomatic
+# Remove TruSeq3 adapters: 2 mismatches allowed, palindrome disabled (using single-end reads), min score 10
+# Remove low-quality bases (Q≤3) from read start
+# Remove low-quality bases (Q≤3) from read end
+# Cut when 4-base window average quality drops below 15
+# Discard reads shorter than 95bp after trimming
 trimmomatic SE \
     "$INPUT_FILE" \
     "$OUTPUT_FILE" \
-    ILLUMINACLIP:"$ADAPTER_FILE":2:0:10 \  # Remove TruSeq3 adapters: 2 mismatches allowed, palindrome disabled, min score 10
-    LEADING:3 \                            # Remove low-quality bases (Q≤3) from read start
-    TRAILING:3 \                           # Remove low-quality bases (Q≤3) from read end
-    SLIDINGWINDOW:4:15 \                   # Cut when 4-base window average quality drops below 15
-    MINLEN:95                              # Discard reads shorter than 95bp after trimming
+    ILLUMINACLIP:"$ADAPTER_FILE":2:0:10 \
+    LEADING:3 \
+    TRAILING:3 \
+    SLIDINGWINDOW:4:15 \
+    MINLEN:95
 
 echo ""
 echo "Trimming Statistics:"
