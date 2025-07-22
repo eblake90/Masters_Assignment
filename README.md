@@ -489,7 +489,7 @@ conda env remove -n mmb5009_edward
 - Rate limiting is implemented for API calls (1 second delays)
 
 ## AI USAGE DECLARATION
-This README was created solely through my own work. Grammatical and style adjustments were made using Claude Sonnet 4 Model. Hence refer to claude-4_prompts_for_readme.md
+This README was created solely through my own work. Grammatical and style adjustments were made using Claude Sonnet 4 Model.
 
 ## Author
 
